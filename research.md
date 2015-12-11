@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Research
+header: true
 permalink: /research/
 ---
 

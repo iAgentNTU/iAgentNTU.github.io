@@ -13,3 +13,10 @@ url: "https://iagentntu.github.io/" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 timezone: Asia/Taipei
+collections:
+  professor:
+    output: true
+  alumni:
+    output: true
+  students:
+    output: true

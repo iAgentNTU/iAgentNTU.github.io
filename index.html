@@ -3,14 +3,36 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
+  <h1 class="page-heading">Professor</h1>
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.professor %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          {{ post.brief}}
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
+  <h1 class="page-heading">Students</h1>
+  <ul class="post-list">
+    {% for post in site.students %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h1 class="page-heading">Alumni</h1>
+  <ul class="post-list">
+    {% for post in site.alumni %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>

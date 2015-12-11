@@ -1,0 +1,6 @@
+---
+layout: page
+title: Prof. Jane Yung-jen Hsu
+brief: Jane Hsu is a professor and department chair of Computer Science and Information Engineering at National Taiwan University. Her research interests include multi-agent systems, intelligent data analysis, commonsense knowledge, and context-aware computing. Prof. Hsu is the director of the Intel-NTU Connected Context Computing Center, featuring global research collaboration among NTU, Intel, and the National Science Council of Taiwan. She serves on the editorial board of Journal of Information Science and Engineering (2010-), International Journal of Service Oriented Computing and Applications (Springer, 2007-2009) and Intelligent Data Analysis (Elsevier/IOS Press, 1997-2002). She is actively involved in many key international AI conferences as organizers and members of the program committee. In addition to serving as the President of Taiwanese Association for Artificial Intelligence (2013-2014), Prof. Hsu has been a member of AAAI, IEEE, ACM, Phi Tau Phi, and an executive committee member of the IEEE Technical Committee on E-Commerce (2000) and TAAI (2004-current).
+---
+{{page.brief}}

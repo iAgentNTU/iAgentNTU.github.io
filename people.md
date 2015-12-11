@@ -1,6 +1,7 @@
 ---
 layout: page
 title: People
+header: true
 permalink: /people/
 ---
 
