@@ -1,0 +1,36 @@
+---
+layout: default
+title: Research
+header: true
+permalink: /research/
+order: 2
+---
+
+<div class="research ui container">
+  <div class="ui sizer vertical segment">
+  {% assign projects = site.categories.research %}
+  {% assign people = site.categories.people %}
+  {% for project in projects %}
+    <div class="ui large header">{{ project.title }}</div>
+    <img class="ui fluid image" src="{{ project.image }}">
+    <div class="ui medium header">{{ project.subtitle }}</div>
+    <p>{{ project.brief }}</p>
+    <div class="ui horizontal list">
+    {% assign members = project.members %}
+      {% for id in members %}
+        {% for student in people %}
+          {% if id == student.student_id %}
+      <div class="item">
+        <img class="ui mini circular image" src="{{student.image}}">
+        <div class="content">
+          {{ student.name }}
+        </div>
+      </div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+    <div class="ui divider"></div>
+  {% endfor %}
+  </div>
+</div>

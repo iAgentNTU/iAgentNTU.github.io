@@ -3,43 +3,56 @@ layout: default
 ---
 
 <div class="home">
-  <h1 class="page-heading">Professor</h1>
-  <ul class="post-list">
-    {% for post in site.professor %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          {{ post.brief}}
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="ui container introduction">
+    {% assign about = site.categories.about[0] %}
+    <img class="ui fluid image" src="{{ site.baseurl}} {{ about.image}}">
+    
+    <h3 class="ui dividing header">Introduction</h3>
+    <p>{{about.brief}}</p>
 
-  <h1 class="page-heading">Students</h1>
-  <ul class="post-list">
-    {% for post in site.students %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <h3 class="ui dividing header">Professor</h3>
+    {% assign professor = site.categories.professor[0] %}
+    <img class="ui small left floated image" src="{{ site.baseurl}} {{ professor.image}}">
+    <p>{{professor.brief}}</p>
 
-  <h1 class="page-heading">Alumni</h1>
-  <ul class="post-list">
-    {% for post in site.alumni %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    <h3 class="ui dividing header">Members</h3>
+      <div class="ui four doubling cards">
+      {% assign members = site.categories.people | where: 'type', 'member' %}
+        {% for student in members reversed %}
+        <div class="card">
+          <div class="image">
+            {% if student.create_link == true and student.external_url %}
+              <a class="image" href="{{ student.external_url }}">
+                <img src="{{ site.baseurl}} {{ student.image }}">
+              </a>
+            {% elsif student.create_link == true %}
+              <a class="image" href="{{ student.url }}">
+                <img src="{{ site.baseurl}} {{ student.image }}">
+              </a>
+            {% else %}
+              <img src="{{ site.baseurl}} {{ student.image }}">
+            {% endif %}
+          </div>
+          <div class="content">
+            {% if student.create_link == true and student.external_url %}
+              <a class="description" href="{{ student.external_url }}">{{ student.name}}</a>
+              <div class="meta">
+                <a href="{{ student.external_url }}">{{ student.program }}</a>
+              </div>
+            {% elsif student.create_link == true %}
+              <a class="description" href="{{ student.url }}">{{ student.name}}</a>
+              <div class="meta">
+                <a href="{{ student.url }}">{{ student.program }}</a>
+              </div>
+            {% else %}
+              <div class="description">{{ student.name}}</div>
+              <div class="meta">
+                {{ student.program }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+  </div>
 </div>

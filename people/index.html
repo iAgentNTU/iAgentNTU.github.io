@@ -1,0 +1,104 @@
+---
+layout: default
+title: People
+header: true
+permalink: /people/
+order: 1
+---
+{% assign types = "PhD student,Master student,Undergraduate,Research assistant" | split: ',' %}
+
+<div class="ui container">
+  <!-- Members -->
+  <h3 class="ui dividing header">Members</h3>
+  {% assign members = site.categories.people | where: 'type', 'member' %}
+  {% for type in types %}
+    {% assign students = members | where: 'program', type %}
+    <h4 class="ui header">{{type}}</h4>
+    <div class="ui four doubling cards">
+    {% for student in students reversed %}
+      <div class="card">
+        <div class="image">
+        {% if student.create_link == true and student.external_url %}
+          <a class="image" href="{{ student.external_url }}">
+            <img src="{{ site.baseurl}} {{ student.image }}">
+          </a>
+        {% elsif student.create_link == true %}
+          <a class="image" href="{{ student.url }}">
+            <img src="{{ site.baseurl}} {{ student.image }}">
+          </a>
+        {% else %}
+          <img src="{{ site.baseurl}} {{ student.image }}">
+        {% endif %}
+        </div>
+        <div class="content">
+        {% if student.create_link == true and student.external_url %}
+          <a class="description" href="{{ student.external_url }}">{{ student.name}}</a>
+          <div class="meta">
+            <a href="{{ student.external_url }}">{{ student.research_interests }}</a>
+          </div>
+        {% elsif student.create_link == true %}
+          <a class="description" href="{{ student.url }}">{{ student.name}}</a>
+          <div class="meta">
+            <a href="{{ student.url }}">{{ student.research_interests }}</a>
+          </div>
+        {% else %}
+          <div class="description">{{ student.name}}</div>
+          <div class="meta">
+            {{ student.research_interests }}
+          </div>
+        {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  {% endfor %}
+  <!-- End for members -->
+
+  <!-- Alumni -->
+  <h3 class="ui dividing header">Alumni</h3>
+  {% assign members = site.categories.people | where: 'type', 'alumnus' %}
+  {% for type in types %}
+    {% assign students = members | where: 'program', type %}
+    <h4 class="ui header">{{type}}</h4>
+    <div class="ui four doubling cards">
+    {% for student in students reversed %}
+      <div class="card">
+        <div class="image">
+        {% if student.create_link == true and student.external_url %}
+          <a class="image" href="{{ student.external_url }}">
+            <img src="{{ site.baseurl}} {{ student.image }}">
+          </a>
+        {% elsif student.create_link == true %}
+          <a class="image" href="{{ student.url }}">
+            <img src="{{ site.baseurl}} {{ student.image }}">
+          </a>
+        {% else %}
+          <img src="{{ site.baseurl}} {{ student.image }}">
+        {% endif %}
+        </div>
+        <div class="content">
+        {% if student.create_link == true and student.external_url %}
+          <a class="description" href="{{ student.external_url }}">{{ student.name}}</a>
+          <div class="meta">
+            <a href="{{ student.external_url }}">{{ student.program }}</a>
+          </div>
+        {% elsif student.create_link == true %}
+          <a class="description" href="{{ student.url }}">{{ student.name}}</a>
+          <div class="meta">
+            <a href="{{ student.url }}">{{ student.program }}</a>
+          </div>
+        {% else %}
+          <div class="description">{{ student.name}}</div>
+          <div class="meta">
+            <i class="horizontally flipped student icon small"></i>  {{ student.graduation_year }}
+          </div>
+        {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  {% endfor %}
+  <!-- End for Alumni -->
+</div>
+
+

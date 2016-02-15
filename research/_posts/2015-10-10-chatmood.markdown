@@ -1,0 +1,12 @@
+---
+layout: post
+date: 2015-10-10 16:32:04 UST+8
+title: Chatmood
+subtitle: A Mixed-initiative Labeling Approach to Building Natural Dialogue Corpus for Sentiment Analysis
+image: /research/images/chatmood.png
+members:
+  - d01944003
+  - d00944010
+brief: Natural dialogue corpus is a useful resource in sentiment analysis research. Scientists could make computer better understand human intension with it, but it is difficult to obtain. The ordinary way to build a corpus is to recruit experts or workers to label the collected conversion log. However, experts or workers may not truly understand the sentiment contained in the log. Furthermore, some feelings are hard to reconstruct after the moment passed. In this work, we propose a mixinitiative labeling approach which is designed to let people contribute labels during the conversation with minimum efforts. 
+---
+
