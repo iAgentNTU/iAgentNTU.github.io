@@ -9,7 +9,10 @@ order: 1
 
 <div class="ui container">
   <!-- Members -->
-  <h3 class="ui dividing header">Members</h3>
+  <div class="ui horizontal divider medium header">
+    <i class="users icon"></i>
+    Current Members
+  </div>
   {% assign members = site.categories.people | where: 'type', 'member' %}
   {% for type in types %}
     {% assign students = members | where: 'program', type %}
@@ -55,7 +58,10 @@ order: 1
   <!-- End for members -->
 
   <!-- Alumni -->
-  <h3 class="ui dividing header">Alumni</h3>
+  <div class="ui horizontal divider medium header">
+    <i class="student flipped icon"></i>
+    Alumni
+  </div>
   {% assign members = site.categories.people | where: 'type', 'alumnus' %}
   {% for type in types %}
     {% assign students = members | where: 'program', type %}
