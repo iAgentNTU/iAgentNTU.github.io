@@ -16,43 +16,31 @@ layout: default
     <p>{{professor.brief}}</p>
 
     <h3 class="ui dividing header">Members</h3>
-      <div class="ui four doubling cards">
-      {% assign members = site.categories.people | where: 'status', 'ongoing' %}
-        {% for student in members reversed %}
-        <div class="card">
-          <div class="image">
-            {% if student.create_link == true and student.external_url %}
-              <a class="image" href="{{ student.external_url }}">
-                <img src="{{ site.baseurl}} {{ student.image }}">
-              </a>
-            {% elsif student.create_link == true %}
-              <a class="image" href="{{ student.url }}">
-                <img src="{{ site.baseurl}} {{ student.image }}">
-              </a>
-            {% else %}
-              <img src="{{ site.baseurl}} {{ student.image }}">
-            {% endif %}
-          </div>
-          <div class="content">
-            {% if student.create_link == true and student.external_url %}
-              <a class="description" href="{{ student.external_url }}">{{ student.name}}</a>
-              <div class="meta">
-                <a href="{{ student.external_url }}">{{ student.program }}</a>
-              </div>
-            {% elsif student.create_link == true %}
-              <a class="description" href="{{ student.url }}">{{ student.name}}</a>
-              <div class="meta">
-                <a href="{{ student.url }}">{{ student.program }}</a>
-              </div>
-            {% else %}
-              <div class="description">{{ student.name}}</div>
-              <div class="meta">
-                {{ student.program }}
-              </div>
-            {% endif %}
+    <div class="ui four doubling cards">
+    {% assign members = site.categories.people | where: 'status', 'ongoing' %}
+    {% for student in members reversed %}
+      {% if student.create_link == true and student.external_url %}
+      <a class="ui card" href="{{ student.external_url }}">
+      {% elsif student.create_link == true %}
+      <a class="ui card" href="{{ student.url }}">
+      {% else %}
+      <div class="ui card">
+      {% endif %}
+        <div class="image">
+          <img src="{{ site.baseurl}} {{ student.image }}">
+        </div>
+        <div class="content">
+          <div class="description">{{ student.name}}</div>
+          <div class="meta">
+            {{ student.program }}
           </div>
         </div>
-        {% endfor %}
+      {% if student.create_link == true %}
+      </a>
+      {% else %}
       </div>
+      {% endif %}
+    {% endfor %}
+    </div>
   </div>
 </div>
