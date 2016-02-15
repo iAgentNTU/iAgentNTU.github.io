@@ -2,10 +2,10 @@
 layout: page
 title:  Yu-chen Tsai
 name: Yu-chen Tsai
-type: member
+status: ongoing
 program: Research assistant
 entry_year: 2014
-graduation_year: 
+exit_year: 
 create_link: false
 external_url: 
 image: /people/images/yu-chen_tsai.jpg

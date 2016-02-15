@@ -17,7 +17,7 @@ layout: default
 
     <h3 class="ui dividing header">Members</h3>
       <div class="ui four doubling cards">
-      {% assign members = site.categories.people | where: 'type', 'member' %}
+      {% assign members = site.categories.people | where: 'status', 'ongoing' %}
         {% for student in members reversed %}
         <div class="card">
           <div class="image">

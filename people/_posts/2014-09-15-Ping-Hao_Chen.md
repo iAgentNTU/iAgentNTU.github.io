@@ -2,10 +2,10 @@
 layout: page
 title: Ping-Hao Chen
 name: Ping-Hao Chen
-type: member
+status: ongoing
 program: Master student
 entry_year: 2014
-graduation_year: 
+exit_year: 
 create_link: false
 external_url: 
 image: /people/images/pinghao.jpg
