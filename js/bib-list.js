@@ -1,1 +1,0 @@
-../../bib-publication-list/build/bib-list.js
