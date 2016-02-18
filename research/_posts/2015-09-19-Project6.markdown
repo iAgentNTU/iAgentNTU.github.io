@@ -1,0 +1,12 @@
+---
+layout: post
+date: 2015-09-19 15:10:00
+title: Project 6
+subtitle: This is for testing
+image: /research/images/project6.png
+members:
+  - d97922024
+  - d99922020
+  - d01944003
+brief: This is for testing. This is for testing. This is for testing. This is for testing. This is for testing. This is for testing. This is for testing. This is for testing. This is for testing. This is for testing. This is for testing. This is for testing. This is for testing. This is for testing. This is for testing. This is for testing. 
+---

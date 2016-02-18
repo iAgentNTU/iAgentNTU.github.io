@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+<script type="text/javascript" src="/js/bib-list.js"></script>
+<link rel="stylesheet" href="/css/people.css" type="text/css" />
+
+
+<div class="people">
+  <div class="ui grid">
+    <div class="four wide column">
+      <img src="{{page.image}}" class="ui circular image small">
+    </div>
+    <div class="twelve wide column">
+      <br />
+      <h2 class="ui header">
+        {{page.title}}
+        <div class="sub header">
+        <p>{{page.program}}</p>
+          <span class="social-network">
+          {% if page.email and page.email.href and page.email.onclick %}
+            <a href="{{page.email.href}}" onclick="{{page.email.onclick}}">
+              <i class="mail icon"></i>
+              Email
+            </a>
+          {% elsif page.email %}
+            <a href="mailto:{{page.email}}">
+              <i class="mail icon"></i>
+              Email
+            </a>
+          {% endif %}
+          {% if page.linkedin %}
+            <a href="{{page.linkedin}}" target="_blank">
+              <i class="linkedin square icon"></i>
+              Linkedin
+            </a>
+          {% endif %}
+          {% if page.twitter %}
+            <a href="{{page.twitter}}" target="_blank">
+              <i class="twitter square icon"></i>
+              Twitter
+            </a>
+          {% endif %}
+          {% if page.github %}
+            <a href="{{page.github}}" target="_blank">
+              <i class="github square icon"></i>
+              Github
+            </a>
+          {% endif %}
+          </span>
+        </div>
+      </h2>
+    </div>
+  </div>
+
+  <article class="post-content">
+    <br />
+    {{ content }}
+    <br />
+  </article>
+  <!-- Research -->
+  <div class="ui large header">Project invloved</div>
+  <div class="ui grid">
+  {% for project in site.categories.research %}
+    {% assign members = project.members %}
+    {% for id in members %}
+      {% if id == page.student_id %}
+        <div class="eight wide column">
+          <div class="ui small header">
+            {{ project.title }}
+            <div class="sub header medium">
+              {{ project.subtitle }}
+            </div>
+          </div>
+          <img class="ui fluid image" src="{{ project.image }}">
+        </div>
+      {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  </div>
+  <!-- End of Research -->
+  
+
+  <!-- Publication -->
+  {% if page.bibsrc %}
+    <div class="ui large header">Publications</div>
+    <table id="pubTable" class="display"></table>
+  {% endif %}
+  <!-- End of Publication -->
+</div>
+
+{% if page.bibsrc %}
+<script>
+    $( document ).ready(function() {
+        bibtexify('{{page.bibsrc}}', 'pubTable', {'visualization': false});
+    });
+</script>
+{% endif %}
+
+
+
+

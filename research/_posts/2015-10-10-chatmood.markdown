@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2015-10-10 16:32:04 UST+8
+date: 2015-10-10
 title: Chatmood
 subtitle: A Mixed-initiative Labeling Approach to Building Natural Dialogue Corpus for Sentiment Analysis
 image: /research/images/chatmood.png

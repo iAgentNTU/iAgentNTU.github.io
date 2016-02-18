@@ -8,20 +8,21 @@ order: 1
 {% assign types = "PhD student,Master student,Undergraduate,Research assistant" | split: ',' %}
 
 <div class="ui container">
+
   <!-- Members -->
   <div class="ui horizontal divider medium header">
     <i class="users icon"></i>
     Current Members
   </div>
-  {% assign members = site.categories.people | where: 'status', 'ongoing' %}
+  {% assign members = site.people | where: 'status', 'ongoing' %}
   {% for type in types %}
     {% assign students = members | where: 'program', type %}
     <h4 class="ui header">{{type}}</h4>
     <div class="ui four doubling cards">
     {% for student in students reversed %}
-      {% if student.create_link == true and student.external_url %}
+      {% if student.link == true and student.external_url %}
       <a class="ui card" href="{{ student.external_url }}">
-      {% elsif student.create_link == true %}
+      {% elsif student.link == true %}
       <a class="ui card" href="{{ student.url }}">
       {% else %}
       <div class="ui card">
@@ -35,7 +36,7 @@ order: 1
             {{ student.research_interests }}
           </div>
         </div>
-      {% if student.create_link == true %}
+      {% if student.link == true %}
       </a>
       {% else %}
       </div>
@@ -51,15 +52,15 @@ order: 1
     <i class="student flipped icon"></i>
     Alumni
   </div>
-  {% assign members = site.categories.people | where: 'status', 'graduated' %}
+  {% assign members = site.people | where: 'status', 'graduated' %}
   {% for type in types %}
     {% assign students = members | where: 'program', type %}
     <h4 class="ui header">{{type}}</h4>
     <div class="ui four doubling cards">
     {% for student in students %}
-      {% if student.create_link == true and student.external_url %}
+      {% if student.link == true and student.external_url %}
       <a class="ui card" href="{{ student.external_url }}">
-      {% elsif student.create_link == true %}
+      {% elsif student.link == true %}
       <a class="ui card" href="{{ student.url }}">
       {% else %}
       <div class="ui card">
@@ -74,7 +75,7 @@ order: 1
              in {{ student.exit_year }}
           </div>
         </div>
-      {% if student.create_link == true %}
+      {% if student.link == true %}
       </a>
       {% else %}
       </div>
@@ -89,12 +90,12 @@ order: 1
     Past Assistants and
     <i class="spy flipped icon"></i>
   </div>
-  {% assign members = site.categories.people | where: 'status', 'quit' %}
+  {% assign members = site.people | where: 'status', 'quit' %}
     <div class="ui four doubling cards">
     {% for student in members %}
-      {% if student.create_link == true and student.external_url %}
+      {% if student.link == true and student.external_url %}
       <a class="ui card" href="{{ student.external_url }}">
-      {% elsif student.create_link == true %}
+      {% elsif student.link == true %}
       <a class="ui card" href="{{ student.url }}">
       {% else %}
       <div class="ui card">
@@ -111,7 +112,7 @@ order: 1
             {{ student.program }}
           </div>
         </div>
-      {% if student.create_link == true %}
+      {% if student.link == true %}
       </a>
       {% else %}
       </div>

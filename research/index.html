@@ -1,19 +1,24 @@
 ---
 layout: default
 title: Research
+# permalink: /research/
 header: true
-permalink: /research/
 order: 2
 ---
 
 <div class="research ui container">
   <div class="ui sizer vertical segment">
-  {% assign projects = site.categories.research %}
-  {% assign people = site.categories.people %}
+  {% assign projects = paginator.posts %}
+  {% assign people = site.people %}
   {% for project in projects %}
-    <div class="ui large header">{{ project.title }}</div>
+    <div class="ui large header">
+      {{ project.title }}
+      <div class="sub header medium">
+        {{ project.subtitle }}
+      </div>
+    </div>
     <img class="ui fluid image" src="{{ project.image }}">
-    <div class="ui medium header">{{ project.subtitle }}</div>
+    <p></p>
     <p>{{ project.brief }}</p>
     <div class="ui horizontal list">
     {% assign members = project.members %}
@@ -23,7 +28,17 @@ order: 2
       <div class="item">
         <img class="ui mini circular image" src="{{student.image}}">
         <div class="content">
-          {{ student.name }}
+        {% if student.link == true and student.external_url %}
+          <a href="{{ student.external_url }}">
+          {{student.name}}
+          </a>
+        {% elsif student.link == true %}
+          <a href="{{ student.url }}">
+          {{student.name}}
+          </a>
+        {% else %}
+          {{student.name}}
+        {% endif %}
         </div>
       </div>
           {% endif %}
@@ -32,5 +47,31 @@ order: 2
     </div>
     <div class="ui divider"></div>
   {% endfor %}
+  <!-- Pagination links -->
+  {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+      {% else %}
+        <span>&laquo; Prev</span>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <em>{{ page }}</em>
+        {% elsif page == 1 %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+      {% else %}
+        <span>Next &raquo;</span>
+      {% endif %}
+    </div>
+  {% endif %}
   </div>
 </div>

@@ -1,5 +1,6 @@
 ---
 layout: page
+hidden: true
 title: Chi-Chia Huang 
 name: Chi-Chia Huang
 student_id: r95922046

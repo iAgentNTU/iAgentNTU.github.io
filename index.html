@@ -4,24 +4,24 @@ layout: default
 
 <div class="home">
   <div class="ui container introduction">
-    {% assign about = site.categories.about[0] %}
+    {% assign about = site.about[0] %}
     <img class="ui fluid image" src="{{ site.baseurl}} {{ about.image}}">
     
     <h3 class="ui dividing header">Introduction</h3>
     <p>{{about.brief}}</p>
 
     <h3 class="ui dividing header">Professor</h3>
-    {% assign professor = site.categories.professor[0] %}
+    {% assign professor = site.professor[0] %}
     <img class="ui small left floated image" src="{{ site.baseurl}} {{ professor.image}}">
     <p>{{professor.brief}}</p>
 
     <h3 class="ui dividing header">Members</h3>
     <div class="ui four doubling cards">
-    {% assign members = site.categories.people | where: 'status', 'ongoing' %}
+    {% assign members = site.people | where: 'status', 'ongoing' %}
     {% for student in members reversed %}
-      {% if student.create_link == true and student.external_url %}
+      {% if student.link == true and student.external_url %}
       <a class="ui card" href="{{ student.external_url }}">
-      {% elsif student.create_link == true %}
+      {% elsif student.link == true %}
       <a class="ui card" href="{{ student.url }}">
       {% else %}
       <div class="ui card">
@@ -35,7 +35,7 @@ layout: default
             {{ student.program }}
           </div>
         </div>
-      {% if student.create_link == true %}
+      {% if student.link == true %}
       </a>
       {% else %}
       </div>
