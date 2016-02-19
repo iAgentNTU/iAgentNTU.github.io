@@ -14,7 +14,8 @@ layout: default
       </div>
       <div class="eleven wide column">
         <h2 class="ui header">
-          {{page.title}}
+          {{page.name}}
+          {{page.chinese_name}}
           <div class="sub header">
           <p>{{page.program}}</p>
             <span class="social-network">
@@ -47,6 +48,10 @@ layout: default
                 Github
               </a>
             {% endif %}
+            {% if page.phone %}
+              <i class="phone icon"></i>
+              {{ page.phone }}
+            {% endif %}
             </span>
           </div>
         </h2>
@@ -61,6 +66,7 @@ layout: default
   </article>
 
   <!-- Research -->
+  {% if show_project %}
   <div class="ui medium header">Project Invloved</div>
   <div class="ui grid">
   {% for project in site.categories.research %}
@@ -89,6 +95,7 @@ layout: default
     {% endfor %}
   {% endfor %}
   </div>
+  {% endif %}
   <!-- End of Research -->
   
 

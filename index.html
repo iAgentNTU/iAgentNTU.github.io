@@ -12,7 +12,9 @@ layout: default
 
     <h3 class="ui dividing header">Professor</h3>
     {% assign professor = site.professor[0] %}
-    <img class="ui small left floated image" src="{{ site.baseurl}} {{ professor.image}}">
+    <a href="{{professor.url}}">
+      <img class="ui small left floated image rounded" src="{{ site.baseurl}} {{ professor.image}}">
+    </a>
     <p>{{professor.brief}}</p>
 
     <h3 class="ui dividing header">Members</h3>

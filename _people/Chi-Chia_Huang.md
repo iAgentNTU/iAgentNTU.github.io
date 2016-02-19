@@ -3,6 +3,7 @@ layout: people
 hidden: true
 title: Chi-Chia Huang
 name: Chi-Chia Huang
+chinese_name: 黃啟嘉
 student_id: d01944003
 status: ongoing
 program: PhD student
@@ -12,6 +13,7 @@ link: true
 external_url:
 image: /people/images/chichia.jpg
 research_interests: recommender system, internet of things
+show_project: true
 brief: 
 # bibsrc: /people/bibtex/chichia.bib
 bibsrc: '#bibtex'
