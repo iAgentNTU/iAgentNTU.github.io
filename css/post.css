@@ -31,3 +31,4 @@ pre#bibtex{display: none}
 .ui.horizontal.list.member:not(.celled)>.item:first-child {
     margin-left: 1em!important;
 }
+.post-content {font-size: 1.1em;}
