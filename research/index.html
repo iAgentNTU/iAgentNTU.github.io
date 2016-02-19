@@ -21,6 +21,8 @@ order: 2
       </div>
     </a>
     <p></p>
+    <p class="post-meta">
+    Posted {% if project.author %} by <span class="author">{{ project.author }} </span> {% endif %} on <i class="wait icon"></i><span class="date">{{ project.date | date: "%b %-d, %Y" }}</span></p>
     <img class="ui fluid image" src="{{ project.image }}">
     <p></p>
     <p>{{ project.brief }}</p>

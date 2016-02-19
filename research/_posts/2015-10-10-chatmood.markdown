@@ -7,6 +7,24 @@ image: /research/images/chatmood.png
 members:
   - d01944003
   - d00944010
+author: Chi-Chia Huang
 brief: Natural dialogue corpus is a useful resource in sentiment analysis research. Scientists could make computer better understand human intension with it, but it is difficult to obtain. The ordinary way to build a corpus is to recruit experts or workers to label the collected conversion log. However, experts or workers may not truly understand the sentiment contained in the log. Furthermore, some feelings are hard to reconstruct after the moment passed. In this work, we propose a mixinitiative labeling approach which is designed to let people contribute labels during the conversation with minimum efforts. 
+bibsrc: '#bibtex'
 ---
 
+
+Natural dialogue corpus is a useful resource in sentiment analysis research. Scientists could make computer better understand human intension with it, but it is difficult to obtain. The ordinary way to build a corpus is to recruit experts or workers to label the collected conversion log. However, experts or workers may not truly understand the sentiment contained in the log. Furthermore, some feelings are hard to reconstruct after the moment passed. In this work, we propose a mixinitiative labeling approach which is designed to let people contribute labels during the conversation with minimum efforts. 
+
+![Alt text](/research/images/chatmood.png)
+
+<pre id="bibtex">@misc{Huang:HCOMP15,
+    Author = {Huang, Chi-Chia and Huang, Yi-Ching and Hsu, Jane Yung-jen},
+    Date-Added = {2016-02-17 17:21:43 +0000},
+    Date-Modified = {2016-02-17 17:27:03 +0000},
+    Howpublished = {Work-in-Progress in Conference on Human Computation \& Crowdsourcing},
+    Location = {San Diego, California, USA},
+    Month = {November},
+    Url = {/people/pdf/Huang_HCOMP15.pdf},
+    Title = {Chatmood: A Mixed-initiative Labeling Approach to Building Natural Dialogue Corpus for Sentiment Analysis},
+    Year = {2015}}
+</pre>

@@ -12,7 +12,7 @@ url: "https://iagentntu.github.io/" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
-paginate: 3
+paginate: 5
 paginate_path: "/research/page:num"
 
 # Build settings
