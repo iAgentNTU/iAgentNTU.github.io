@@ -22,7 +22,7 @@ div.bibinfo pre { clear:both; }
 pre#bibtex{display: none}
 .social-network i.icon:only-child{margin-right: .1em !important;}
 .social-network i.icon{margin-left: .75em}
-.social-network a:first-of-type i.icon{margin-left: 0}
+.social-network a:first-of-type i.icon{margin-left: 0em}
 
 .social-network a{color: rgba(0,0,0,.6);}
 .social-network a:visited{color: rgba(0,0,0,.6);}

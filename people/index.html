@@ -15,11 +15,12 @@ order: 1
     Current Members
   </div>
   {% assign members = site.people | where: 'status', 'ongoing' %}
+  {% assign members = members | sort: 'entry_year' %}
   {% for type in types %}
     {% assign students = members | where: 'program', type %}
     <h4 class="ui header">{{type}}</h4>
     <div class="ui four doubling cards">
-    {% for student in students reversed %}
+    {% for student in students %}
       {% if student.link == true and student.external_url %}
       <a class="ui card" href="{{ student.external_url }}">
       {% elsif student.link == true %}
@@ -53,11 +54,12 @@ order: 1
     Alumni
   </div>
   {% assign members = site.people | where: 'status', 'graduated' %}
+  {% assign members = members | sort: 'exit_year' %}
   {% for type in types %}
     {% assign students = members | where: 'program', type %}
     <h4 class="ui header">{{type}}</h4>
     <div class="ui four doubling cards">
-    {% for student in students %}
+    {% for student in students reversed  %}
       {% if student.link == true and student.external_url %}
       <a class="ui card" href="{{ student.external_url }}">
       {% elsif student.link == true %}
@@ -91,8 +93,9 @@ order: 1
     <i class="spy flipped icon"></i>
   </div>
   {% assign members = site.people | where: 'status', 'quit' %}
+  {% assign members = members | sort: 'exit_year' %}
     <div class="ui four doubling cards">
-    {% for student in members %}
+    {% for student in members reversed %}
       {% if student.link == true and student.external_url %}
       <a class="ui card" href="{{ student.external_url }}">
       {% elsif student.link == true %}

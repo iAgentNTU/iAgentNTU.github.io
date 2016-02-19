@@ -18,7 +18,8 @@ layout: default
     <h3 class="ui dividing header">Members</h3>
     <div class="ui four doubling cards">
     {% assign members = site.people | where: 'status', 'ongoing' %}
-    {% for student in members reversed %}
+    {% assign members = members | sort: 'entry_year' %}
+    {% for student in members %}
       {% if student.link == true and student.external_url %}
       <a class="ui card" href="{{ student.external_url }}">
       {% elsif student.link == true %}
