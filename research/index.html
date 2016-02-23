@@ -26,30 +26,32 @@ order: 2
     <img class="ui fluid image" src="{{ project.image }}">
     <p></p>
     <p>{{ project.brief }}</p>
-    <div class="ui horizontal list member">
-    {% assign members = project.members %}
-      {% for id in members %}
-        {% for student in people %}
-          {% if id == student.student_id %}
-      <div class="item">
-        <img class="ui mini circular image" src="{{student.image}}">
-        <div class="content">
-        {% if student.link == true and student.external_url %}
-          <a href="{{ student.external_url }}">
-          {{student.name}}
-          </a>
-        {% elsif student.link == true %}
-          <a href="{{ student.url }}">
-          {{student.name}}
-          </a>
-        {% else %}
-          {{student.name}}
-        {% endif %}
-        </div>
-      </div>
+    <div class="ui grid">
+      <div class="doubling four column row">
+      {% assign members = project.members %}
+        {% for id in members %}
+          {% for student in people %}
+            {% if id == student.student_id %}
+        <div class="column">
+          <img class="ui avatar image" src="{{student.image}}">
+          <span>
+          {% if student.link == true and student.external_url %}
+            <a href="{{ student.external_url }}">
+            {{student.name}}
+            </a>
+          {% elsif student.link == true %}
+            <a href="{{ student.url }}">
+            {{student.name}}
+            </a>
+          {% else %}
+            {{student.name}}
           {% endif %}
+          </span>
+        </div>
+            {% endif %}
+          {% endfor %}
         {% endfor %}
-      {% endfor %}
+      </div>
     </div>
     <div class="ui divider"></div>
   {% endfor %}

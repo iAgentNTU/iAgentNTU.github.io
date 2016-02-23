@@ -1,3 +1,4 @@
-.ui.horizontal.list.member:not(.celled)>.item:first-child {
-    margin-left: 1em!important;
+.ui.grid>.row>.column {
+    margin-top: .3em;
+    margin-bottom: 0;
 }
