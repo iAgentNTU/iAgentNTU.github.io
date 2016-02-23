@@ -27,8 +27,9 @@ pre#bibtex{display: none}
 .social-network a:visited{color: rgba(0,0,0,.6);}
 article {font-size: 1.2em}
 
-.social-network {font-size: .8em}
+.social-network {font-size: .85em}
 .social-network .ui.grid>.column:not(.row) {
     padding-top: .5rem;
     padding-bottom: .5rem;
+    padding-right: 0em;
 }

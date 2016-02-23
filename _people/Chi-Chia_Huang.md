@@ -5,7 +5,7 @@ title: Chi-Chia Huang
 name: Chi-Chia Huang
 chinese_name: 黃啟嘉
 student_id: d01944003
-status: quit
+status: ongoing
 program: PhD student
 entry_year: 2012
 exit_year: 2016
