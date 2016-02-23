@@ -28,15 +28,16 @@ layout: default
   <!-- Members -->
   {% if page.members %}
   <div class="ui medium header">Project Member</div>
-    <div class="ui horizontal list member">
+  <div class="ui grid">
+    <div class="doubling four column row">
     {% assign people = site.people %}
     {% assign members = page.members %}
       {% for id in members %}
         {% for student in people %}
           {% if id == student.student_id %}
-      <div class="item">
-        <img class="ui mini circular image" src="{{student.image}}">
-        <div class="content">
+      <div class="column">
+        <img class="ui avatar image" src="{{student.image}}">
+        <span>
         {% if student.link == true and student.external_url %}
           <a href="{{ student.external_url }}">
           {{student.name}}
@@ -48,12 +49,13 @@ layout: default
         {% else %}
           {{student.name}}
         {% endif %}
-        </div>
+        </span>
       </div>
           {% endif %}
         {% endfor %}
       {% endfor %}
     </div>
+  </div>
   {% endif %}
   <!-- End of Members -->
 

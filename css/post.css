@@ -32,3 +32,7 @@ pre#bibtex{display: none}
     margin-left: 1em!important;
 }
 .post-content {font-size: 1.1em;}
+.ui.grid>.row>.column {
+    margin-top: .5em;
+    margin-bottom: 0;
+}
