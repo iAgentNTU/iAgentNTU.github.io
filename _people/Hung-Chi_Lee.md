@@ -10,6 +10,7 @@ entry_year: 2010
 exit_year: 
 link: true
 external_url: 
+show_project: true
 image: /people/images/hungchi.jpg
 brief:
 ---

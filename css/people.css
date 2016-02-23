@@ -21,9 +21,14 @@ div.bibinfo pre { clear:both; }
 .dataTables_info {display: none}
 pre#bibtex{display: none}
 .social-network i.icon:only-child{margin-right: .1em !important;}
-.social-network i.icon{margin-left: .75em}
-.social-network a:first-of-type i.icon{margin-left: 0em}
+.social-network i.icon{margin-left: 0 em}
 
 .social-network a{color: rgba(0,0,0,.6);}
 .social-network a:visited{color: rgba(0,0,0,.6);}
 article {font-size: 1.2em}
+
+.social-network {font-size: .8em}
+.social-network .ui.grid>.column:not(.row) {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}

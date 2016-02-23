@@ -19,39 +19,69 @@ layout: default
           <div class="sub header">
           <p>{{page.program}}</p>
             <span class="social-network">
-            {% if page.email and page.email.href and page.email.onclick %}
-              <a href="{{page.email.href}}" onclick="{{page.email.onclick}}">
-                <i class="mail icon"></i>
-                Email
-              </a>
-            {% elsif page.email %}
-              <a href="mailto:{{page.email}}">
-                <i class="mail icon"></i>
-                Email
-              </a>
-            {% endif %}
-            {% if page.linkedin %}
-              <a href="{{page.linkedin}}" target="_blank">
-                <i class="linkedin square icon"></i>
-                Linkedin
-              </a>
-            {% endif %}
-            {% if page.twitter %}
-              <a href="{{page.twitter}}" target="_blank">
-                <i class="twitter square icon"></i>
-                Twitter
-              </a>
-            {% endif %}
-            {% if page.github %}
-              <a href="{{page.github}}" target="_blank">
-                <i class="github square icon"></i>
-                Github
-              </a>
-            {% endif %}
-            {% if page.phone %}
-              <i class="phone icon"></i>
-              {{ page.phone }}
-            {% endif %}
+              <div class="ui grid">  
+              {% if page.email and page.email.href and page.email.onclick %}
+                <div class="four wide column">
+                  <a href="{{page.email.href}}" onclick="{{page.email.onclick}}">
+                    <i class="mail icon"></i>
+                    Email
+                  </a>
+                </div>
+              {% elsif page.email %}
+                <div class="four wide column">
+                  <a href="mailto:{{page.email}}">
+                    <i class="mail icon"></i>
+                    Email
+                  </a>
+                </div>
+              {% endif %}
+              {% if page.homepage %} 
+                <div class="four wide column">  
+                  <a href="{{page.homepage}}" target="_blank">
+                    <i class="home icon"></i>
+                    Homepage
+                  </a>
+                </div>
+              {% endif %}
+              {% if page.facebook %} 
+                <div class="four wide column">  
+                  <a href="{{page.facebook}}" target="_blank">
+                    <i class="facebook square icon"></i>
+                    Facebook
+                  </a>
+                </div>
+              {% endif %}
+              {% if page.linkedin %} 
+                <div class="four wide column">  
+                  <a href="{{page.linkedin}}" target="_blank">
+                    <i class="linkedin square icon"></i>
+                    Linkedin
+                  </a>
+                </div>
+              {% endif %}
+              {% if page.twitter %}
+                <div class="four wide column">
+                  <a href="{{page.twitter}}" target="_blank">
+                    <i class="twitter square icon"></i>
+                    Twitter
+                  </a>
+                </div>
+              {% endif %}  
+              {% if page.github %}
+                <div class="four wide column">
+                  <a href="{{page.github}}" target="_blank">
+                    <i class="github square icon"></i>
+                    Github
+                  </a>
+                </div>
+              {% endif %}
+              {% if page.phone %}  
+                <div class="eight wide column">
+                  <i class="phone icon"></i>
+                  {{ page.phone }}
+                </div>
+              {% endif %}  
+              </div>
             </span>
           </div>
         </h2>
