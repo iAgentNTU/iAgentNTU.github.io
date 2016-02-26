@@ -20,7 +20,7 @@ bibsrc: '#bibtex'
 
 email:
   href="http://www.google.com/recaptcha/mailhide/d?k=01CS2P5SdTuwJdjNMImIuIeQ==&amp;c=SMUghphuV7yjbWUw5YLB2VKpVu3BQ1loPYBYQGTS8x8="
-  onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501CS2P5SdTuwJdjNMImIuIeQ\75\75\46c\75SMUghphuV7yjbWUw5YLB2VKpVu3BQ1loPYBYQGTS8x8\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address"
+  onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\\07501CS2P5SdTuwJdjNMImIuIeQ\\75\\75\\46c\\75SMUghphuV7yjbWUw5YLB2VKpVu3BQ1loPYBYQGTS8x8\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address"
 
 # homepage: http://chifatty.pixnet.net/blog
 # facebook: https://www.facebook.com/Huang.ChiChia
