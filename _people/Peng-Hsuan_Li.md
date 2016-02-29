@@ -1,6 +1,6 @@
 ---
 layout: people
-hidden: true
+hidden: false
 title: Peng-Hsuan Li
 name: Peng-Hsuan Li
 chinese_name: 李朋軒
