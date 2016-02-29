@@ -9,7 +9,7 @@ members:
   - r98922029
   - r99922003
 author: Peng-Hsuan Li
-brief: SmartAC : Energy Conservation for Air Conditioner
+brief: SmartAC - Energy Conservation for Air Conditioner
 bibsrc: '#bibtex'
 ---
 <p>目前資工系館一個月電費約為80萬-100萬(系上需自付15%的費用)，經實驗測量後，得知空調用電約佔總用電量的40%-50%，非常可觀。而中央空調的冰水主機，會根據設定的冰水出水溫度(目前一致設定7度)而決定加載或卸載，因此其用電量會隨著主機負載量改變(出水溫度越低 消耗電能越多)。</p>
