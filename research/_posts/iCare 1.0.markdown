@@ -5,10 +5,6 @@ title: iCare 1.0
 subtitle:
 image:
 members:
-  - d94922021
-  - r97922131
-  - r97922026
-  - d89922014
 author: Peng-Hsuan Li
 brief: The iCare research initiative is about embracing and embedding digital technology into our physical living to enhance our everyday experiences at home.
 bibsrc: '#bibtex'
