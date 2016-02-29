@@ -18,7 +18,7 @@ brief:
 bibsrc:
 email:
   href: "http://www.google.com/recaptcha/mailhide/d?k=01BbV1YFxZxeHFrs3rgwGHjw==&amp;c=XJAq4sFE9e7GCygm_Tnoe_H5ZWsspV6rESXNiOdH7AA="
-  onclick: "window.open('http://www.google.com/recaptcha/mailhide/d?k\07501BbV1YFxZxeHFrs3rgwGHjw\75\75\46c\75XJAq4sFE9e7GCygm_Tnoe_H5ZWsspV6rESXNiOdH7AA\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+  onclick: "window.open('http://www.google.com/recaptcha/mailhide/d?k\\07501BbV1YFxZxeHFrs3rgwGHjw\\75\\75\\46c\\75XJAq4sFE9e7GCygm_Tnoe_H5ZWsspV6rESXNiOdH7AA\\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
 homepage:
 facebook:
 linkedin:
