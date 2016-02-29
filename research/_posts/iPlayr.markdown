@@ -21,4 +21,4 @@ https://sites.google.com/site/iagentcommonsense/home
 <p>&nbsp;</p>
 <p></p>
 
-<img src="/research/images/chicken03.JPG" class="ui left floated image large">
+<img src="/research/images/iplayr.png" class="ui left floated image large">
