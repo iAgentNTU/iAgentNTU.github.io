@@ -3,7 +3,7 @@ layout: post
 date:
 title: iPlayr
 subtitle:
-image: /research/images/iplayr.png
+image: /research/images/iplayr.jpg
 members:
   - r01944017
   - b92902072
@@ -21,4 +21,4 @@ https://sites.google.com/site/iagentcommonsense/home
 <p>&nbsp;</p>
 <p></p>
 
-<img src="/research/images/iplayr.png" class="ui left floated image large">
+<img src="/research/images/iplayr.jpg" class="ui left floated image large">
