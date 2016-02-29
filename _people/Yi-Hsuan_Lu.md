@@ -13,7 +13,7 @@ link: true
 external_url:
 image: /people/images/yihsuan.jpg
 research_interests: nature language processing, digital humanities
-show_project: true
+show_project: false
 brief:
 # bibsrc: /people/bibtex/chichia.bib
 bibsrc: '#bibtex'
