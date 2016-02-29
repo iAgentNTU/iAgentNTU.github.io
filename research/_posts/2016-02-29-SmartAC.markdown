@@ -1,6 +1,6 @@
 ---
 layout: post
-date:
+date: 2016-02-29 18:08
 title: SmartAC
 subtitle:
 image: smart_ac.png
