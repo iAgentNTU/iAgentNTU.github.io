@@ -32,16 +32,18 @@ github: https://github.com/yihsuanlu
 Hi, I am a member of iAgent lab.
 
 <pre id="bibtex">
-    @inproceedings{Wang:DADH12,
+    @inbook{Wang:DADH12,
         Address = {Taipei, Taiwan},
         Author = {Wang, Yu-chun and Lu, Yi-hsuan and Tsai, Richard Tzong-han and Liu, Qing-feng and Jin, Guan-tao and Liu, Chao-lin},
         Booktitle = {Digital Humanities and Craft: Technological Change},
+        Chapter = {Text Mining},
         Date-Added = {2016-02-25 18:17:51 +0000},
-        Date-Modified = {2016-02-25 18:26:26 +0000},
-        Month = {November},
+        Date-Modified = {2016-02-29 07:38:30 +0000},
+        Editor = {Hsiang, Jieh},
+        Isbn = {978-986-350-010-0},
+        Month = {April},
         Pages = {121--137},
         Publisher = {National Taiwan University Press},
-        Series = {{(DADH '12)}},
         Title = {Transliteration Extraction Methods for Historical Chinese Literature},
         Url = {http://www.dadh-record.digital.ntu.edu.tw/config_xml/2012config/programINFO/abs/paper05_02_abs.pdf},
         Year = {2014}}
