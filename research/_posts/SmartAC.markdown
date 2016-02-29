@@ -1,0 +1,18 @@
+---
+layout: post
+date:
+title: SmartAC
+subtitle:
+image: smart_ac.png
+members:
+  - r99944023
+  - r98922029
+  - r99922003
+author: Peng-Hsuan Li
+brief: SmartAC : Energy Conservation for Air Conditioner
+bibsrc: '#bibtex'
+---
+<p>目前資工系館一個月電費約為80萬-100萬(系上需自付15%的費用)，經實驗測量後，得知空調用電約佔總用電量的40%-50%，非常可觀。而中央空調的冰水主機，會根據設定的冰水出水溫度(目前一致設定7度)而決定加載或卸載，因此其用電量會隨著主機負載量改變(出水溫度越低 消耗電能越多)。</p>
+<p>從過去系館用電統計中我們觀察到了一些地方有待改善：&nbsp;</p>
+<p>(1) : 假日 vs. 上課日&nbsp;&nbsp;&nbsp;(2) : 天冷 vs. 天熱&nbsp;&nbsp;&nbsp;(3) : 凌晨 vs. 正常時段</p>
+<p>以上三點，依數據來看，用電量相差不大，造成空調用電的浪費。因此，若能在大家都能覺得舒適的情況下，藉著調高冰水出水溫度，使得空調用電量得以減少，共同響應節能減碳。&nbsp;</p>
