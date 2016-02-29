@@ -3,7 +3,7 @@ layout: post
 date:
 title: Commonsense
 subtitle:
-image: /research/images/chatmood.png
+image: /research/images/chicken03.JPG
 members:
   - r01944018
   - d97922024
@@ -22,5 +22,3 @@ https://sites.google.com/site/iagentcommonsense/home
 <p><strong>Commonsense project</strong> uses <em>human computation</em> to collect commonsense from general public on the internet. By applying these commonsense knowledge, we are able to make computer more intelligent.</p>
 <p>&nbsp;</p>
 <p></p>
-
-<img src="/research/images/chicken03.JPG" class="ui left floated image large">
