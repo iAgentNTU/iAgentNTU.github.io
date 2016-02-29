@@ -21,13 +21,14 @@ bibsrc: '#bibtex'
 email:
   href: "http://www.google.com/recaptcha/mailhide/d?k=01MhlRNlCYMQRB3CtGk9pPWQ==&amp;c=Seat9oiuZshm6ibK_MUDZilOr7fBybQahRY7P83oUwM="
   onclick: "window.open('http://www.google.com/recaptcha/mailhide/d?k\\07501MhlRNlCYMQRB3CtGk9pPWQ\\75\\75\\46c\\75Seat9oiuZshm6ibK_MUDZilOr7fBybQahRY7P83oUwM\\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
-homepage: http://chifatty.pixnet.net/blog
+homepage: 
 facebook: https://www.facebook.com/Huang.ChiChia
 linkedin: https://www.linkedin.com/in/chichiah
 twitter: https://twitter.com/Chifatty
 github: https://github.com/chifatty
 ---
 
+<br />
 
 Hi, my name is Chi-Chia Huang. My friends usually call me Chi-Chia or Chi-Pang. I am currently pursuing PhD degrees in National Taiwan University. I received my mater's degree in computer science from NTU in 2009 and bachelor's degree in computer science from National Chiao Tung University in 2006. I have three years working experience in Insitute for Information Industry from 2009 to 2012.
 
