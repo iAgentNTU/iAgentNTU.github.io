@@ -1,6 +1,6 @@
 ---
 layout: post
-date:
+date: 2016-02-29 01:00:01
 title: Commonsense
 subtitle:
 image: /research/images/chicken03.JPG
