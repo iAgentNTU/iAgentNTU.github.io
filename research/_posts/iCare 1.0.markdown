@@ -3,7 +3,7 @@ layout: post
 date:
 title: iCare 1.0
 subtitle:
-image: /research/images/iCareLogo.png
+image:
 members:
   - d94922021
   - r97922131
