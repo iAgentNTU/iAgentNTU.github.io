@@ -1,6 +1,6 @@
 ---
 layout: post
-date:
+date: 2016-02-29 18:07
 title: Smart Power
 subtitle:
 image:
