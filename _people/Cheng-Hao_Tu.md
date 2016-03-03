@@ -9,7 +9,7 @@ status: ongoing
 program: Master student
 entry_year: 2015
 exit_year: 
-link: false
+link: true
 external_url:
 image: /people/images/cheng-hao.jpg
 research_interests: machine learning, 
