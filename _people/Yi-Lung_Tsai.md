@@ -1,16 +1,16 @@
 ---
 layout: people
 hidden: true
-title: Joey Chiao-Yin Hsiao
-name: Joey Chiao-Yin Hsiao
-student_id: r99922012
+title: Yi-Lung Tsai
+name: Yi-Lung Tsai
+student_id: r99944030
 status: graduated
 program: Master student
 entry_year: 2010
-exit_year: 2013
+exit_year: 2012
 link: false
 external_url: 
-image: /people/images/Joey_Chiao-Yin_Hsiao.jpg
+image: /people/images/Yi-Lung_Tsai.jpg
 research_interests: 
 brief: 
 ---

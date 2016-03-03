@@ -1,16 +1,16 @@
 ---
 layout: people
 hidden: true
-title: Joey Chiao-Yin Hsiao
-name: Joey Chiao-Yin Hsiao
-student_id: r99922012
+title: Jerry Ni
+name: Jerry Ni
+student_id: r00922033
 status: graduated
 program: Master student
-entry_year: 2010
+entry_year: 2011
 exit_year: 2013
 link: false
 external_url: 
-image: /people/images/Joey_Chiao-Yin_Hsiao.jpg
+image: /people/images/Jerry_Ni.jpg
 research_interests: 
 brief: 
 ---
