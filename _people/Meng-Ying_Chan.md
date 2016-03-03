@@ -15,10 +15,9 @@ research_interests: internet of things, human computer interaction
 brief: 
 bibsrc: '#bibtex'
 email:
-  href: "http://www.google.com/recaptcha/mailhide/d?k=01Nnh5Nl-8h7LmGXH_0bspGQ==&amp;
-  c=NEaAAn8puRZDEHdCVkMOzW_cXhL8Px3LzmGXc31pBtw=" 
-  onclick: "window.open('http://www.google.com/recaptcha/mailhide/d?k\\07501Nnh5Nl-8h7LmGXH_0bspGQ\\75\\75\\46c\\75NEaAAn8puRZDEHdCVkMOzW_cXhL8Px3LzmGXc31pBtw\\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;
-facebook:https://www.facebook.com/mengying.chan
+  href: "http://www.google.com/recaptcha/mailhide/d?k=01Nnh5Nl-8h7LmGXH_0bspGQ==&amp;c=NEaAAn8puRZDEHdCVkMOzW_cXhL8Px3LzmGXc31pBtw=" 
+  onclick: "window.open('http://www.google.com/recaptcha/mailhide/d?k\\07501Nnh5Nl-8h7LmGXH_0bspGQ\\75\\75\\46c\\75NEaAAn8puRZDEHdCVkMOzW_cXhL8Px3LzmGXc31pBtw\\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+facebook: https://www.facebook.com/mengying.chan
 ---
 <br />
 
