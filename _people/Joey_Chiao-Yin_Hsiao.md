@@ -1,8 +1,8 @@
 ---
 layout: people
 hidden: true
-title: Joey, Chiao-Yin Hsiao
-name: Joey, Chiao-Yin Hsiao
+title: Joey Chiao-Yin Hsiao
+name: Joey Chiao-Yin Hsiao
 student_id: r99922012
 status: graduated
 program: Master student
