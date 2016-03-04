@@ -24,4 +24,8 @@ facebook: https://www.facebook.com/Sonic2Sonic2
 github: https://github.com/Sonic2Sonic2
 ---
 
-I am Yu-An Tai, a student studying in master's program in Graduate Institute of Networking and Multimedia in National Taiwan University. My research interest is Common Sense and Ontology Construction. My hobbies are Fantasy RPGs, TCGs, Japanese Animation, and Karaoke. Nice to meet you. :)
+Hello, I am Yu-An (Sonic) Tai. I received my bachelor's degree in engineering science from National Taiwan University. Now I'm a student studying in master's program in Graduate Institute of Networking and Multimedia in NTU.
+
+My research interest is Common Sense and Ontology Construction. Learning the knowledge about knowledge always makes me excited.
+
+My hobbies are Fantasy RPGs, TCGs, Japanese Animation, Karaoke and Playing Percussion Instruments. Nice to meet you. :)
