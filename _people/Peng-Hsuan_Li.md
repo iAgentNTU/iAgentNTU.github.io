@@ -25,3 +25,7 @@ linkedin:
 twitter:
 github:
 ---
+
+Peng-Hsuan "Danniel" Li has been involved in human activity recognition group of iAgent since he's an NTU undergraduate. He and Yao-Hua Yang attended undergraduate project contest together with their analysis of the data set of two month camera and various sensor recordings of a seminar room in their department building. Danniel graduated from CSIE, NTU in 2015 and still focused on activity recognition by unobtrusive sensors as of 2016.
+
+In addition, Danniel also had several years of working experience in local file system and internet security.
