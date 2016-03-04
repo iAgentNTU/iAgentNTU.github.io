@@ -28,4 +28,6 @@ github:
 
 <br />
 
-Hi, I'm Brian. 
+Hi, I'm Brian. I started pursuing my master degree in fall, 2014. I have two years working experience as BIOS engineer during 2011 to 2013. After that, I worked several short-term intern in different tech-company.
+
+I'm focusing on internet of things. Using wearable devices for analyzing quality and performance of athlete. I hope these kind of technology can reduce the loading of coach and increase the efficiency of training.
