@@ -10,18 +10,18 @@ program: PhD student
 entry_year: 2009
 exit_year:
 link: true
-external_url: http://yullage.com
+external_url: 
 image: /people/images/yu-chun_huang.jpg
 research_interests: natural language processing, machine translation
 show_project: false
 brief: 
 # bibsrc: /people/bibtex/yu-chun_huang.bib
-bibsrc: '#bibtex'
+bibsrc: 
 
 email:
   href: "http://www.google.com/recaptcha/mailhide/d?k=01y0s1W7s0eiJl6BOAXk7jBQ==&amp;c=X_ECxVoirU1vue3n9nFLm6OT954HQFGiuOQnRbbXru8="
-  onclick:"window.open('http://www.google.com/recaptcha/mailhide/d?k\\07501y0s1W7s0eiJl6BOAXk7jBQ\\75\\75\\46c\\75X_ECxVoirU1vue3n9nFLm6OT954HQFGiuOQnRbbXru8\\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
-homepage: 
+  onclick: "window.open('http://www.google.com/recaptcha/mailhide/d?k\\07501y0s1W7s0eiJl6BOAXk7jBQ\\75\\75\\46c\\75X_ECxVoirU1vue3n9nFLm6OT954HQFGiuOQnRbbXru8\\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+homepage: http://yullage.com
 facebook: https://www.facebook.com/yuchun.huang
 linkedin: https://www.linkedin.com/in/yuchunhuang
 github: https://github.com/galaxyh

@@ -13,13 +13,12 @@ link: true
 external_url:
 image: /people/images/yaohua.jpg
 research_interests: data analysis
-show_project: true
+show_project: false
 brief: 
 # bibsrc: /people/bibtex/chichia.bib
-bibsrc: '#bibtex'
+bibsrc: 
 
-email:
-  href: "r04944021@ntu.edu.tw"
+email: r04944021@ntu.edu.tw
 homepage: 
 facebook: https://www.facebook.com/yaohua.antony
 linkedin: 
