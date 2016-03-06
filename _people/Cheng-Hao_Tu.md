@@ -26,4 +26,7 @@ twitter:
 github:
 ---
 
-Hi, I am currently pursuing Master degrees in National Taiwan University.
+Cheng-Hao (Andy) Tu is pursuing Master degrees in National Taiwan University. He received mater’s degree in computer science from NTU in 2015. His research interests are machine learning and image processing.
+
+Andy has been a member of Activity Recognition Group in iAgent since February, 2015. He currently focuses on smart home and hopes that machine can make our lives more comfortable and convenient. 
+
