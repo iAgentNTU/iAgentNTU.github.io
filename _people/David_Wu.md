@@ -8,7 +8,7 @@ status: graduated
 program: Master student
 entry_year: 2007
 exit_year: 2009
-link: false
+link: true
 external_url: 
 image: /people/images/David_Wu.jpg
 research_interests: 
