@@ -23,7 +23,9 @@ email: david942j[AT]gmail.com
 github: https://github.com/david942j
 ---
 
-Hi, I am a member of iAgent lab.
+Hi, my name is Sheng-Wen, Chiang. Graduate from National Taiwan University with bachelor's degree in Electrical Engineering in 2015. Currently pursuing master degree in iAgent lab.
+
+Interesting in information security. Joining CTF(Capture the Flag) compeitions is my entertainment. Current work is studying ChNELL project to search research objective.
 
 <pre id="bibtex">
     
