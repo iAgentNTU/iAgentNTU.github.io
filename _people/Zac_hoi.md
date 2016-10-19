@@ -1,16 +1,16 @@
 ---
 layout: people
 hidden: true
-title: Joey Chiao-Yin Hsiao
-name: Joey Chiao-Yin Hsiao
-student_id: r99922012
+title: Zac hoi
+name: Zac hoi
+student_id: r00922145
 status: graduated
 program: Master student
-entry_year: 2010
+entry_year: 2011
 exit_year: 2013
 link: false
 external_url: 
-image: /people/images/Joey_Chiao-Yin_Hsiao.jpg
+image: /people/images/Zac_hoi.jpg
 research_interests: 
 brief: 
 ---
