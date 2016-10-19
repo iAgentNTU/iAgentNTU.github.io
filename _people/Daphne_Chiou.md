@@ -11,7 +11,7 @@ entry_year: 2014
 exit_year:
 link: true
 external_url:
-image: /people/images/daphne.jpg
+image: /people/images/Daphne_Chiou.jpg
 research_interests: eye tracker, crowdsourcing
 show_project: true
 brief: 
