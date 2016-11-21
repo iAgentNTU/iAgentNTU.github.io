@@ -1,0 +1,128 @@
+---
+layout: default
+title: People
+header: true
+permalink: /people/
+order: 1
+---
+{% assign types = "PhD student,Master student,Undergraduate,Research assistant" | split: ',' %}
+
+<div class="ui container">
+
+  <!-- Members -->
+  <div class="ui horizontal divider medium header">
+    <i class="users icon"></i>
+    Current Members
+  </div>
+  {% assign members = site.people | where: 'status', 'ongoing' %}
+  {% assign members = members | sort: 'entry_year' %}
+  {% for type in types %}
+    {% assign students = members | where: 'program', type %}
+    <h4 class="ui header">{{type}}</h4>
+    <div class="ui four doubling cards">
+    {% for student in students %}
+      {% if student.link == true and student.external_url %}
+      <a class="ui card" href="{{ student.external_url }}">
+      {% elsif student.link == true %}
+      <a class="ui card" href="{{ student.url }}">
+      {% else %}
+      <div class="ui card">
+      {% endif %}
+        <div class="image">
+          <img src="{{ student.image }}">
+        </div>
+        <div class="content">
+          <div class="description">{{ student.name}}</div>
+          <div class="meta">
+            {{ student.research_interests }}
+          </div>
+        </div>
+      {% if student.link == true %}
+      </a>
+      {% else %}
+      </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+  {% endfor %}
+  <!-- End for members -->
+
+  {% assign types = "PhD student,Master student,Undergraduate" | split: ',' %}
+  <!-- Alumni -->
+  <div class="ui horizontal divider medium header">
+    <i class="student flipped icon"></i>
+    Alumni
+  </div>
+  {% assign members = site.people | where: 'status', 'graduated' %}
+  {% assign members = members | sort: 'exit_year' %}
+  {% for type in types %}
+    {% assign students = members | where: 'program', type %}
+    <h4 class="ui header">{{type}}</h4>
+    <div class="ui four doubling cards">
+    {% for student in students reversed  %}
+      {% if student.link == true and student.external_url %}
+      <a class="ui card" href="{{ student.external_url }}">
+      {% elsif student.link == true %}
+      <a class="ui card" href="{{ student.url }}">
+      {% else %}
+      <div class="ui card">
+      {% endif %}
+        <div class="image">
+          <img src="{{ student.image }}">
+        </div>
+        <div class="content">
+          <div class="description">{{ student.name}}</div>
+          <div class="meta">
+            <i class="horizontally flipped student icon small"></i>
+             in {{ student.exit_year }}
+          </div>
+        </div>
+      {% if student.link == true %}
+      </a>
+      {% else %}
+      </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+  {% endfor %}
+  <!-- End for Alumni -->
+
+  <!-- Past assistants and drop out students -->
+  <div class="ui horizontal divider medium header">
+    Past Assistants and
+    <i class="spy flipped icon"></i>
+  </div>
+  {% assign members = site.people | where: 'status', 'quit' %}
+  {% assign members = members | sort: 'exit_year' %}
+    <div class="ui four doubling cards">
+    {% for student in members reversed %}
+      {% if student.link == true and student.external_url %}
+      <a class="ui card" href="{{ student.external_url }}">
+      {% elsif student.link == true %}
+      <a class="ui card" href="{{ student.url }}">
+      {% else %}
+      <div class="ui card">
+      {% endif %}
+        <div class="image">
+          <img src="{{ student.image }}">
+        </div>
+        <div class="content">
+          <div class="description">{{ student.name}}</div>
+          <div class="meta">
+            {{ student.entry_year }} ~ {{ student.exit_year }}
+          </div>
+          <div class="meta">
+            {{ student.program }}
+          </div>
+        </div>
+      {% if student.link == true %}
+      </a>
+      {% else %}
+      </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+  <!-- End for Past assistants and drop out students -->
+</div>
+
+

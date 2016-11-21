@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="ui container introduction">
+    {% assign about = site.about[0] %}
+    <img class="ui fluid image" src="{{ site.baseurl}} {{ about.image}}">
+    <br />
+    <p>{{about.brief}}</p>
+
+    <h3 class="ui dividing header">Professor</h3>
+    {% assign professor = site.professor[0] %}
+    <a href="{{professor.url}}">
+      <img class="ui small left floated image rounded" src="{{ site.baseurl}} {{ professor.image}}">
+    </a>
+    <p>{{professor.brief}}</p>
+
+    <h3 class="ui dividing header">Members</h3>
+    <div class="ui four doubling cards">
+    {% assign members = site.people | where: 'status', 'ongoing' %}
+    {% assign members = members | sort: 'entry_year' %}
+    {% for student in members %}
+      {% if student.link == true and student.external_url %}
+      <a class="ui card" href="{{ student.external_url }}">
+      {% elsif student.link == true %}
+      <a class="ui card" href="{{ student.url }}">
+      {% else %}
+      <div class="ui card">
+      {% endif %}
+        <div class="image">
+          <img src="{{ site.baseurl}} {{ student.image }}">
+        </div>
+        <div class="content">
+          <div class="description">{{ student.name}}</div>
+          <div class="meta">
+            {{ student.program }}
+          </div>
+        </div>
+      {% if student.link == true %}
+      </a>
+      {% else %}
+      </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+</div>

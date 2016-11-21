@@ -1,0 +1,27 @@
+gems: [jekyll-paginate]
+
+# Site settings
+title: Intelligent Agents Lab
+email: admin@agent.csie.ntu.edu.tw
+description: > # this means to ignore newlines until "baseurl:"
+  Copyright © 2016 iAgents Lab. Since 2016. All Rights Reserved. <br />
+  Phone:+886-2-33664888 ext: 336 <br />
+  Address: R336, CSIE Building, No. 1, Sec. 4, Roosevelt Rd., Taipei 106, Taiwan <br />
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://iagentntu.github.io/" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+paginate: 5
+paginate_path: "/research/page:num"
+
+# Build settings
+markdown: kramdown
+timezone: Asia/Taipei
+collections:
+  about:
+    output: true
+  professor:
+    output: true
+  people:
+    output: true

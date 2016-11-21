@@ -1,0 +1,27 @@
+---
+layout: page
+title: Publication
+header: true
+permalink: /publication/
+order: 3
+customjs:
+ - /js/bib-list-min.js
+customcss:
+ - /css/bib-publication-list.css
+---
+
+{% for js in page.customjs %}
+<script type="text/javascript" src="{{ js }}"></script>
+{% endfor %}
+
+{% for css in page.customcss %}
+<link rel="stylesheet" href="{{ css }}" type="text/css" />
+{% endfor %}
+<script>
+    $( document ).ready(function() {
+        bibtexify('iAgentPublication.bib', 'pubTable', {'visualization': true});
+    }); 
+</script>
+
+
+<table id="pubTable" class="display"></table>

@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<script type="text/javascript" src="/js/bib-list-min.js"></script>
+<link rel="stylesheet" href="/css/post.css" type="text/css" />
+
+<div class="post">
+  <header class="post-header">
+    <div class="ui huge header">
+      {{ page.title }}
+      {% if page.subtitle %}
+        <div class="sub header large">
+          {{ page.subtitle }}
+        </div>
+      {% endif %}
+    </div>
+    <p class="post-meta">
+    Posted {% if page.author %} by <span class="author">{{ page.author }} </span> {% endif %} on <i class="wait icon"></i><span class="date">{{ page.date | date: "%b %-d, %Y" }}</span></p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  <p></p>
+
+  <!-- Members -->
+  {% if page.members %}
+  <div class="ui medium header">Project Member</div>
+  <div class="ui grid">
+    <div class="doubling four column row">
+    {% assign people = site.people %}
+    {% assign members = page.members %}
+      {% for id in members %}
+        {% for student in people %}
+          {% if id == student.student_id %}
+      <div class="column">
+        <img class="ui avatar image" src="{{student.image}}">
+        <span>
+        {% if student.link == true and student.external_url %}
+          <a href="{{ student.external_url }}">
+          {{student.name}}
+          </a>
+        {% elsif student.link == true %}
+          <a href="{{ student.url }}">
+          {{student.name}}
+          </a>
+        {% else %}
+          {{student.name}}
+        {% endif %}
+        </span>
+      </div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+  <!-- End of Members -->
+
+  <!-- Publication -->
+  {% if page.bibsrc %}
+  <p></p>
+  <div class="ui medium header">Publication List</div>
+  <table id="pubTable" class="display"></table>
+  <script>
+    $( document ).ready(function() {
+        bibtexify('{{page.bibsrc}}', 'pubTable', {'visualization': false});
+    });
+  </script>
+  {% endif %}
+  <!-- End of Publication -->
+</div>

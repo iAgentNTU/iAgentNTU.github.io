@@ -1,0 +1,4 @@
+.ui.grid>.row>.column {
+    margin-top: .5em;
+    margin-bottom: 0;
+}
