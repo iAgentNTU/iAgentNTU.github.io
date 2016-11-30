@@ -11,7 +11,7 @@ entry_year: 2014
 exit_year: 
 link: false
 external_url: 
-image: /people/images/caroline_chen.jpg
+image: /people/images/Caroline_Chen.jpg
 research_interests: crowd sourcing, human computer interaction
 show_project: true
 brief: 
