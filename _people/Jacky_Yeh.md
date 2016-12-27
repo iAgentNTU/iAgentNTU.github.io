@@ -28,4 +28,4 @@ Hello, I am Chun-Yen (Jacky) Yeh. I received my bachelor's degree in electrical 
 
 My research interest are internet of things and smart home. My enthusiasm is in combining artificial intelligence and Iot to make a smarter and more convenient place to live. 
 
-At leisure time, I love hiking, playing basketball, and playing tabletop games. 
+At leisure time, I love hiking, playing basketball, and playing tabletop games. Nice to meet you all!
