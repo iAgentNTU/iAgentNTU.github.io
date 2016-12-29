@@ -18,10 +18,8 @@ brief:
 bibsrc:
 
 email:
-  href:
-  "http://www.google.com/recaptcha/mailhide/d?k=01d1SDRi_YcpGRqkDHGgwYYw==&amp;c=sEGLxy-lHRwOQrwI1nTCdPSqh_XG1fnaAdhJK9Mcaf4="
-  onclick:
-  "window.open('http://www.google.com/recaptcha/mailhide/d?k\\x3d01d1SDRi_YcpGRqkDHGgwYYw\\x3d\\x3d\\x26c\\x3dsEGLxy-lHRwOQrwI1nTCdPSqh_XG1fnaAdhJK9Mcaf4\\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+  href: "http://www.google.com/recaptcha/mailhide/d?k=01d1SDRi_YcpGRqkDHGgwYYw==&amp;c=sEGLxy-lHRwOQrwI1nTCdPSqh_XG1fnaAdhJK9Mcaf4="
+  onclick: "window.open('http://www.google.com/recaptcha/mailhide/d?k\\x3d01d1SDRi_YcpGRqkDHGgwYYw\\x3d\\x3d\\x26c\\x3dsEGLxy-lHRwOQrwI1nTCdPSqh_XG1fnaAdhJK9Mcaf4\\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
 
 homepage:
 facebook: https://www.facebook.com/profile.php?id=100001277118261
