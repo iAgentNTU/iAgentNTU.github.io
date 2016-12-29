@@ -5,10 +5,10 @@ title:  Yu-chen Tsai
 name: Yu-chen Tsai
 chinese_name: 蔡育宸
 student_id: b00A____A
-status: ongoing
+status: quit
 program: Research assistant
 entry_year: 2015
-exit_year: 
+exit_year: 2016
 link: true
 external_url: 
 image: /people/images/yu-chen_tsai.jpg
