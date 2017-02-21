@@ -5,10 +5,10 @@ title: Po-Han Chen
 name: Po-Han Chen
 chinese_name: 陳柏翰
 student_id: r03922086
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2014
-exit_year: 2016
+exit_year: 2017
 link: true
 external_url:
 image: /people/images/brian.jpg

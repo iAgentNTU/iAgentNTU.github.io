@@ -4,10 +4,10 @@ hidden: true
 title: Meng-Ying Chan
 name: Meng-Ying Chan
 student_id: r03944015
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2014
-exit_year: 
+exit_year: 2016
 link: true
 external_url: 
 image: /people/images/mengying.jpg
