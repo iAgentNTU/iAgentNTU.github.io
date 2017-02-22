@@ -11,6 +11,11 @@ brief: Parent-child communication is an essential element in behav- ioral and ch
 bibsrc: '#bibtex'
 ---
 
+
+<p>Parent-child communication is an essential element in behav- ioral and character development in early childhood; however, parents may find it difficult to be aware of how they talk to their children. Through extensive field studies with ex- perts and parents, we found that parents are more likely to experience communication conflict with preschool children (3-6 years old) on school mornings. In consultation with domain professionals and families, we designed WAKEY, a technology-based approach that helps parents use better com- munication strategies to teach preschool children to carry out their morning routines. Following the intervention with WAKEY, parents reported significantly reduced levels of frus- tration during morning routines and greater independent be- havior by children. Furthermore, parents reported experienc- ing changes in their parenting attitudes and finding new in- sights into communication. </p>
+<p></p>
+
+
 <pre id="bibtex">@inproceedings{chan:CSCW2017,
     title={WAKEY: Assisting Parent-child Communication for Better Morning Routines},
     author={Chan, Meng-Ying and Lin, Yi-Hsuan and Lin, Long-Fei and Lin, Ting-Wei and Hsu, Wei-Che and Chang, Chia-yu and Liu, Rui and Chang, Ko-Yu and Lin, Min-hua and Hsu, Jane Yung-jen},
