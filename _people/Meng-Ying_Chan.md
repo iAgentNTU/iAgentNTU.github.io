@@ -13,6 +13,7 @@ external_url:
 image: /people/images/mengying.jpg
 research_interests: internet of things, human computer interaction
 brief: 
+show_project: true
 bibsrc: /people/bibtex/mengying.bib
 email:
   href: "http://www.google.com/recaptcha/mailhide/d?k=01Nnh5Nl-8h7LmGXH_0bspGQ==&amp;c=NEaAAn8puRZDEHdCVkMOzW_cXhL8Px3LzmGXc31pBtw=" 
