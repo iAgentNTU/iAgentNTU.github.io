@@ -3,7 +3,7 @@ layout: post
 date: 2017-02-22
 title: WAKEY
 subtitle: Assisting Parent-child Communication for Better Morning Routines
-image: /research/images/wakey_1.jpg
+image: /research/images/wakey_1.png
 members:
   - r03944015
 author: Meng-Ying Chan
