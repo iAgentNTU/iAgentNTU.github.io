@@ -22,7 +22,7 @@ facebook: https://www.facebook.com/mengying.chan
 ---
 <br />
 
-Hi, I am Meng-Ying (James) Chan. I am currently pursuing my mater's degree in computer science from NTU in 2014.
+Hi, I am Meng-Ying (James) Chan. I have mater's degree in computer science in 2016 from NTU.
 
 In the field of research, I focus on the area of intelligent life, hoping to develop the technology which helps those disable people can enjoy the technology life just like normal people, and lets ordinary people can live in a safer and more comfortable life.
 For the future, I will continue to maintain the enthusiasm for learning. Researching on cross field will become the future trend. The followings are my ambitions. Showing talent in society, creating the value that is irreplaceable by anyone, making an effort to develop the science and technology, and letting everyone can enjoy the convenience and comfort life brought by science and technology.
