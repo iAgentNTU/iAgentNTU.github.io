@@ -3,7 +3,7 @@ layout: people
 hidden: true
 title: Kevin Hsu
 name: Shu-Yu Hsu
-chinese_name: �\�Ѧt
+chinese_name: 許書宇
 student_id: r05922059
 status: ongoing
 program: Master student
