@@ -22,6 +22,9 @@ bibsrc: '#bibtex'
 <img src="/research/images/chatmood2.png" class="ui right floated image medium">
 <p>To make a correction, just click on the system generated emoticon, and then pick the appropriate emoticons in the expanded menu. A user can make corrections not only for his own emoticons, but also those belong to the opposite side. When a correction is made, it will be logged and delivered to the opposite side. The corrections could be used to improve emoticon predic- tion. With this system, we can collect two kinds of labels: the user-tacitly-agreed emoticons and corrections.</p>
 
+<div class="ui center aligned container" >
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oNR4lSoUU8o" frameborder="0" allowfullscreen></iframe></div>
+
 <pre id="bibtex">@misc{Huang:HCOMP15,
     Author = {Huang, Chi-Chia and Huang, Yi-Ching and Hsu, Jane Yung-jen},
     Date-Added = {2016-02-17 17:21:43 +0000},

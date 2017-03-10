@@ -1,0 +1,71 @@
+---
+layout: post
+date: 2017-01-22
+title: Alexa enabled Jarvis
+subtitle: A voice interface for configuring and controlling smart home appliances
+image: /research/images/jarvis.png
+members:
+  - d01944003
+author: Chi-Chia Huang
+brief: Many of IoT products are aimed to end users, especially in smart home applications. However, installation and configuration of electric devices are usually bothersome, which stops most non-technical background families from adapting smart home solutions. In this project, we proposed a intuitive way to configure smart home appliances via voice interface and builded a prototype system on top of Amazon Alexa skill.
+bibsrc: 
+---
+
+<p>IoT industry is booming. There are variety of products on the market. Many of them are aimed to end users, especially in smart home applications. We can image that every electric devices in the home will connect to the internet in the near future. They can be controlled over internet, and can even learn to work automatically. However, installation and configuration of electric devices are usually bothersome, which stops most non-technical background families from adapting smart home solutions. Further more, improper configurations usually make those products not work as origin design, ex. waste more energy after installed Nest.</p>
+
+<p></p>
+
+<p>The hot selling of Amazon Echo in North American proves people’s acceptance of voice. We believe that voice interaction will account for large part human environment interaction modes in smart home. There are already lots of third party skills for Amazon Echo to control smart home appliances. Since people are comfortable in control appliances with voice interface, we think it is reasonable to make configuration via voice interface as well.</p>
+
+<p></p>
+
+<p>In our design, there will be a centralized monitor system in the smart home, which is also adopted by several commercial products like SmartThings and Philips Hue. All smart appliances have network connection. When an appliance is installed, it will upload it’s profile to the system database. The profile is provided by manufacturer. It contains the uniform resource identifier of the appliance, the type of the appliance, the services provided by the appliance, etc. With this information, the system are able to request the services from the appliance and to control it. For example, a dehumidifying dryer provides services to dehumidify, to query the humidity, to query the  current state, etc. In addition, all appliance events will stream to the system database. When users want to refer to a smart appliance in the interaction with the voice interface, they can change the device state with traditional interface, ex. buttons, switches. Since the system monitors every state changing event, if there is only one event at the moment, the target appliance is clear. If there is ambiguity, users will be asked to reproduce the event.
+</p>
+
+<div class="ui center aligned container" >
+  <table class="ui celled structured collapsing table" style="margin: 0 auto;">
+      <caption>Example profile for a dehumidifying dryer</caption>
+    <tbody>
+      <tr>
+        <td>URI</td>
+        <td>appliance:companyname:modelname:serialnumber</td>
+      </tr>
+      <tr>
+        <td>Type</td>
+        <td>dehumidifying_dryer</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Services</td>
+        <td> dehumidify(level, target_humidity) </td>
+      </tr>
+      <tr>
+        <td> query_humidify() </td>
+      </tr>
+      <tr>
+        <td> query_state() </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p></p>
+
+<p>
+We builded a simple prototype with two smart lamps to demonstrate our idea. A smart lamp was made with a lamp, a LinkIt Smart 7688 Duo, a button, a relay, and an electricity sensor. The LinkIt Smart 7688 Duo is connected to the internet, and has it’s shadow device on AWS IoT platform. The lamp can be controlled either by the physical button or the command from the internet. The state changing event and current reading are streaming to the database on AWS RDBS. The voice interface and the logic behind it were builded with Alexa Skill and AWS lambda. We name the interface after the intelligent agent Jarvis in the famous science fiction Iron Man.</p>
+
+<figure class="ui center aligned">
+    <img src="/research/images/jarvis.png" class="ui centered image large">
+    <figcaption  style="text-align:center">System Architecture</figcaption>
+</figure>
+
+<p></p>
+
+<p>
+With this prototype, we demonstrated how to configure the lamps with custom names. Once the name of the lamp is set, a user can turn on/off the lamp via the voice interface. In this demonstration, I turned on/off a lamp with physical button in order to let Jarvis know to which lamp I referred. I demoed the situations that Jarvis sensed the correct device, Jarvis did not sense any device, and Jarvis sensed multiple devices.</p>
+
+<div class="ui center aligned container" ><iframe width="560" height="315" src="https://www.youtube.com/embed/GlYCPryN1YM" frameborder="0" allowfullscreen></iframe></div>
+
+<p></p>
+
+<p>
+We can further extent this prototype, such as teach Jarvis how to interpret sensor readings, learn the location of a device, or even some more advance command like “close the living room widow curtains and turn on the porch light after sun light.” </p>
