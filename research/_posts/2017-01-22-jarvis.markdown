@@ -11,6 +11,8 @@ brief: Many of IoT products are aimed to end users, especially in smart home app
 bibsrc: 
 ---
 
+<h2>Motivation</h2>
+
 <p>IoT industry is booming. There are variety of products on the market. Many of them are aimed to end users, especially in smart home applications. We can imagine that every electronic devices in the home will connect to the internet in the near future. They can be controlled over the internet, and can even be trained to work automatically. However, installation and configuration of electronic devices are usually bothersome, which stops most non-technical background families from adapting smart home solutions. Further more, improper configurations usually make those products not work as original designed, e.g. waste more energy after installed Nest.</p>
 
 <p></p>
@@ -19,6 +21,7 @@ bibsrc:
 
 <p></p>
 
+<h2>Design Concept</h2>
 <p>In our design, there will be a centralized monitor system in the smart home. The same design is also adopted by several commercial products like SmartThings and Philips Hue. All smart appliances have network connection. When an appliance is installed, it will upload it’s profile to the system database. The profile is provided by manufacturer. It contains the uniform resource identifier of the appliance, the type of the appliance, the services provided by the appliance, etc. With this information, the system are able to request the services from the appliance and to control it. For example, a dehumidifying dryer provides services to dehumidify, to query the humidity, to query the current state, etc. In addition, all appliance events will stream to the system database. When users want to refer to a smart appliance in the interaction with the voice interface, they can change the device state with traditional interface, e.g. buttons, switches. Since the system monitors every state changing event, if there is only one event at the moment, the target appliance is clear. If there is ambiguity, users will be asked to reproduce the event.
 </p>
 
@@ -50,6 +53,7 @@ bibsrc:
 
 <p></p>
 
+<h2>Implementaion</h2>
 <p>
 We builded a simple prototype with two smart lamps to demonstrate our idea. A smart lamp was made with a lamp, a LinkIt Smart 7688 Duo, a button, a relay, and an electricity sensor. The LinkIt Smart 7688 Duo is connected to the internet, and has it’s shadow device on AWS IoT platform. The lamp can be controlled either by the physical button or the command from the internet. The state changing event and current reading are streaming to the database on AWS RDBS. The voice interface and the logic behind it were builded with Alexa Skill and AWS lambda. We name the interface after the intelligent agent Jarvis in the famous science fiction Iron Man.</p>
 
