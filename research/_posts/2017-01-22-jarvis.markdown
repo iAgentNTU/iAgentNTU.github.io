@@ -7,7 +7,7 @@ image: /research/images/jarvis.png
 members:
   - d01944003
 author: Chi-Chia Huang
-brief: Many of IoT products are aimed to end users, especially in smart home applications. However, installation and configuration of electronic devices are usually bothersome, which stops most non-technical background families from adapting smart home solutions. In this project, we proposed a intuitive way to configure smart home appliances via voice interface and builded a prototype system on top of Amazon Alexa skill.
+brief:Many of IoT products are aimed to end users, especially in smart home applications. However, installation and configuration of electronic devices are usually bothersome, which stops most non-technical background families from adapting smart home solutions. In this project, we proposed a intuitive way to configure smart home appliances via voice interface and builded a prototype system on top of Amazon Alexa skill.
 bibsrc: 
 ---
 
