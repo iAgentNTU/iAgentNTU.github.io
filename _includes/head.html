@@ -4,11 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   {% assign about = site.about[0] %}
-  <meta name="og:description" content="{{ about.brief }}" />
+  <meta name="og:description" content="{% if page.brief %}{{ page.brief }}{% else %}{{ about.brief }}{% endif %}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="{{ site.url }}"/>
-  <meta property="og:image" content="{{ site.baseurl }} {{ about.image }}"/>
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
+  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ about.image }}{% endif %}"/>
   <meta property="og:site_name" content="{{ site.title }}" />
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
