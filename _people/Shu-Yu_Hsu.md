@@ -3,7 +3,7 @@ layout: people
 hidden: true
 title: Kevin Hsu
 name: Shu-Yu Hsu
-chinese_name: �\�Ѧt
+chinese_name: ³\®Ñ¦t
 student_id: r05922059
 status: ongoing
 program: Master student
@@ -12,7 +12,7 @@ exit_year:
 link: true
 external_url:
 image: /people/images/KevinHsu.JPG
-research_interests:
+research_interests: GAN, CV
 show_project: false
 brief:
 # bibsrc: '#bibtex'
@@ -24,6 +24,6 @@ facebook: https://www.facebook.com/kevin.hsu.3781
 github: https://github.com/KevinYuimin
 ---
 Hi there, Kevin speaking!
-I received my bachelor's degree in electrical engineering from National Taiwan Normal University. My research interest are artificial intelligence and machine learning.
-Besides pursuing the academic part, I also love playing the guitar (both classical and accoustic).
+I received my bachelor's degree in electrical engineering from National Taiwan Normal University.  I used to intern at Oath from 2017 July to December.
 
+My research interests are  computer vision and deep learning, especially application of Generative Aversarial Network(GAN) on fashion styles.
