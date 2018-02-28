@@ -5,7 +5,7 @@ title: Erick Chandra
 name: Erick Chandra
 chinese_name: Erick Chandra
 student_id: r06922147
-status: active
+status: ongoing
 program: Master student
 entry_year: 2017
 exit_year:
@@ -18,10 +18,6 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 # bibsrc: '#bibtex'
 bibsrc: ''
-
-email:
-  href: ""
-  onclick: ""
 homepage: 
 facebook: 
 linkedin: 
