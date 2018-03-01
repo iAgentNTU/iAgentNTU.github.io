@@ -5,10 +5,10 @@ title: Cheng-Hao Tu
 name: Cheng-Hao Tu
 chinese_name: 屠政皓
 student_id: r04922023
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2015
-exit_year: 
+exit_year: 2018
 link: true
 external_url:
 image: /people/images/cheng-hao.jpg

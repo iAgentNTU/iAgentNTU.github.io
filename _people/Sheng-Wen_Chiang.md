@@ -5,10 +5,10 @@ title: Sheng-Wen Chiang
 name: Sheng-Wen Chiang
 chinese_name: 蔣盛文
 student_id: r04922038
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2015
-exit_year:
+exit_year: 2018
 link: true
 external_url:
 image: /people/images/shengwen.png

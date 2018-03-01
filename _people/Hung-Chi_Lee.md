@@ -5,10 +5,10 @@ title: Hung-Chi Lee
 name: Hung-Chi Lee
 chinese_name: 李泓其
 student_id: d99922020
-status: ongoing
+status: graduated
 program: PhD student
 entry_year: 2010
-exit_year: 
+exit_year: 2017
 link: true
 external_url: 
 show_project: true

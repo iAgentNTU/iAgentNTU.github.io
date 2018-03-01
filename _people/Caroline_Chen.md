@@ -5,7 +5,7 @@ title: Caroline Chen
 name: Caroline Chen
 chinese_name: 陳姿穎
 student_id: b02705019
-status: ongoing
+status: graduated
 program: Undergraduate
 entry_year: 2014
 exit_year: 

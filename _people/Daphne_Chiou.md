@@ -5,7 +5,7 @@ title: Daphne Chiou
 name: Daphne Chiou
 chinese_name: 邱筱晴
 student_id: b02902034
-status: ongoing
+status: graduated
 program: Undergraduate
 entry_year: 2014
 exit_year:

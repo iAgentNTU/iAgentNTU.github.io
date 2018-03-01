@@ -5,10 +5,10 @@ title: Yi-Hsuan Lu
 name: Yi-Hsuan Lu
 chinese_name: 呂翊瑄
 student_id: r02944029
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2013
-exit_year: 2016
+exit_year: 2017
 link: true
 external_url:
 image: /people/images/yihsuan.jpg
