@@ -8,7 +8,7 @@ status: ongoing
 program: Master student
 entry_year: 2017
 exit_year:
-link: false
+link: true
 external_url: 
 image: /people/images/AlexisLin.jpg
 research_interests: machine learning
