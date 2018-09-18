@@ -11,7 +11,7 @@ entry_year: 2018
 exit_year:
 link: true
 external_url:
-image: /people/images/chichia.jpg
+image: /people/images/JeanWu.jpg
 research_interests: internet of things, HCI, Machine Learning
 show_project: false
 brief:
