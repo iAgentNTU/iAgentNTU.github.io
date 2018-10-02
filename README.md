@@ -76,6 +76,6 @@ After you finish editing, __please examine the result in your local environment 
 git push origin master
 ```
 
-Then, fire a pull request on github page.
+Then, fire a pull request on github page, and wait for the admin to merge your change.
 
 ## Add a Research Project Page
