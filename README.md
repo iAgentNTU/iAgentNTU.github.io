@@ -19,11 +19,10 @@ Install [jekyll](https://jekyllrb.com) in your local environment. Make sure your
 
 
 ## Add a Personal Page
-First, clone this repository and create a new branch
+First, fork this repository to your github and clone it to your host.
 ```Shell
-git clone git@github.com:iAgentNTU/iAgentNTU.github.io.git
+git clone https://github.com/{your_github_name}/iAgentNTU.github.io.git
 cd iAgentNTU.github.io
-git checkout -b feature/you_name
 ```
 
 Use Chi-Chia Huang's file as starting point.
@@ -74,7 +73,7 @@ Then you are free to write anything you want. Please refer to [Jekyll Docs](http
 
 After you finish editing, __please examine the result in your local environment first__. If you are sure that everything works well, you can push your local branch to github.
 ```Shell
-git push origin feature/you_name
+git push origin master
 ```
 
 Then, fire a pull request on github page.
