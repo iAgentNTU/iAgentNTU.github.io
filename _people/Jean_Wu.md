@@ -1,8 +1,8 @@
 ---
 layout: people
 hidden: true
-title: Shan-Jean Wu
-name: Shan-Jean Wu
+title: Jean Wu
+name: Jean Wu
 chinese_name: 吳尚真
 student_id: r06944023
 status: ongoing
@@ -12,7 +12,7 @@ exit_year:
 link: true
 external_url:
 image: /people/images/JeanWu.jpg
-research_interests: internet of things, HCI, Machine Learning
+research_interests: Internet of Things, Computer Vision, Machine Learning
 show_project: false
 brief:
 # bibsrc: /people/bibtex/chichia.bib
@@ -30,4 +30,4 @@ github: https://github.com/JeanWU
 
 Hello, my name is Shan-Jean Wu. I am currently pursuing Master degrees in National Taiwan University. I have one year working experience in CSI Taiwan Corporation from 2017 to 2018.
 
-My research interests are Machine Learning, Human Computer Interaction and Internet of Things.
+My research interests are Machine Learning, Computer Vision and Internet of Things.
