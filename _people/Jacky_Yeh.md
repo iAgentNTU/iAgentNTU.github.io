@@ -12,7 +12,7 @@ exit_year:
 link: true
 external_url:
 image: /people/images/Jacky_Yeh.jpg
-research_interests: internet of things, smart home
+research_interests: Computer Vision
 show_project: false
 brief:
 # bibsrc: '#bibtex'
@@ -26,6 +26,7 @@ github: https://github.com/jackyyeh5111
 
 Hello, I am Chun-Yen (Jacky) Yeh. I received my bachelor's degree in electrical engineering from National Taiwan Normal University. 
 
-My research interest are IoT and smart home. My enthusiasm is in combining artificial intelligence and Iot to make a smarter and more convenient place to live. 
+My current research is image paragraphing. Teaching machines how to describe images in a more semantically precise way is always my enthusiasm about. Also, I am interested in IoT, serving as TA of "Advanced Topics in Internet of Things" this semester.
 
-At leisure time, I love hiking, playing basketball, and playing tabletop games. Nice to meet you all!
+At leisure time, I love playing basketball, playing tabletop games, and hang out with friends. 
+Nice to meet you all!
