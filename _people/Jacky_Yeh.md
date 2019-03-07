@@ -26,7 +26,7 @@ github: https://github.com/jackyyeh5111
 
 Hello, Chun-Yen (Jacky) Yeh is here. I received my bachelor's degree in electrical engineering from National Taiwan Normal University. 
 
-My current research is image paragraphing. Teaching machines how to describe images in a more semantically precise way is always my enthusiasm about. Also, I am interested in IoT, serving as TA of "Advanced Topics in Internet of Things" this semester.
+My current research area is image paragraphing. Teaching machines how to describe images in a more semantically precise way is always my enthusiasm about. Also, I am interested in IoT, serving as TA of "Advanced Topics in Internet of Things" this semester.
 
 At leisure time, I love playing basketball, playing tabletop games, and hanging out with friends. 
 Nice to meet you all!
