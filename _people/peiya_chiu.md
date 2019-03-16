@@ -5,10 +5,10 @@ title: Pei-Ya Chiu
 name: Pei-Ya Chiu
 chinese_name: 邱培雅
 student_id: p05922002
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2016
-exit_year: 
+exit_year: 2019
 link: true
 external_url:
 image: /people/images/peiya.jpg

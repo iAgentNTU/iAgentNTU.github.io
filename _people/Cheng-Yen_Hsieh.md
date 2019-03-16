@@ -5,7 +5,7 @@ title: Cheng-Yen Hsieh
 name: Cheng-Yen Hsieh
 chinese_name: 謝政諺
 student_id: r03944016
-status: ongoing
+status: quit
 program: Master student
 entry_year: 2014
 exit_year: 2017

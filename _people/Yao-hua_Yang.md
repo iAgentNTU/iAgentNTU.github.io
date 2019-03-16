@@ -5,7 +5,7 @@ title: Yao-Hua Yang
 name: Yao-Hua Yang
 chinese_name: 楊曜華
 student_id: r04944021
-status: ongoing
+status: quit
 program: Master student
 entry_year: 2015
 exit_year: 2017

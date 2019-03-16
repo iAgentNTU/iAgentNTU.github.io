@@ -5,7 +5,7 @@ title: Yu-Yan Peng
 name: Yu-Yan Peng
 chinese_name: 彭于晏
 student_id: r04944002
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2015
 exit_year: 

@@ -5,10 +5,10 @@ title:
 name: Chieh-Teng Chang
 chinese_name: 張介騰
 student_id: r05944007
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2016
-exit_year: 
+exit_year: 2018
 link: true
 external_url:
 image: /people/images/chieh-teng_chang.jpg

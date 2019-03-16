@@ -5,10 +5,10 @@ title: Yu-An Tai
 name: Yu-An Tai
 chinese_name: 戴佑安
 student_id: r03944035
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2014
-exit_year: 2016
+exit_year: 2018
 link: true
 external_url:
 image: /people/images/yuan.jpg

@@ -5,10 +5,10 @@ title: Szu-Hung Wang
 name: Szu-Hung Wang
 chinese_name: 王斯泓
 student_id: r05944025
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2016
-exit_year:
+exit_year: 2019
 link: true
 external_url:
 image: /people/images/Szu-Hung_Wang.jpg

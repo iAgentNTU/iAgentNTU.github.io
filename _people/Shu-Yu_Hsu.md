@@ -5,7 +5,7 @@ title: Kevin Hsu
 name: Shu-Yu Hsu
 chinese_name: 許書宇
 student_id: r05922059
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2016
 exit_year: 
