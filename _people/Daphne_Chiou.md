@@ -8,7 +8,7 @@ student_id: b02902034
 status: graduated
 program: Undergraduate
 entry_year: 2014
-exit_year:
+exit_year: 2017
 link: true
 external_url:
 image: /people/images/Daphne_Chiou.jpg

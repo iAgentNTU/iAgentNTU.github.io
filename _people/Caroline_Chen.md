@@ -8,7 +8,7 @@ student_id: b02705019
 status: graduated
 program: Undergraduate
 entry_year: 2014
-exit_year: 
+exit_year: 2018
 link: true
 external_url: 
 image: /people/images/Caroline_Chen.jpg

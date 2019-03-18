@@ -8,7 +8,7 @@ student_id: r05922059
 status: graduated
 program: Master student
 entry_year: 2016
-exit_year: 
+exit_year: 2018
 link: true
 external_url:
 image: /people/images/KevinHsu.JPG
