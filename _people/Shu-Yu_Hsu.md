@@ -13,17 +13,15 @@ link: true
 external_url:
 image: /people/images/KevinHsu.JPG
 research_interests: GAN, CV
-show_project: false
+show_project: true
 brief:
-# bibsrc: '#bibtex'
+bibsrc: /people/bibtex/shuyu.bib
 
 email: space83725 [at] gmail . com
-# homepage: 
+# homepage:
 facebook: https://www.facebook.com/kevin.hsu.3781
 # linkedin: https://www.linkedin.com/
 github: https://github.com/KevinYuimin
 ---
-Hi there, Kevin speaking!
-I received my bachelor's degree in electrical engineering from National Taiwan Normal University.  I used to intern at Oath from 2017 July to December.
 
-My research interests are  computer vision and deep learning, especially application of Generative Aversarial Network(GAN) on fashion styles.
+Shu-Yu (Kevin) Hsu received his bachelor degree in electrical engineering from National Taiwan Normal University and his master degreee in computer science from National Taiwan University. His research interests are computer vision and deep learning, especially application of Generative Aversarial Network(GAN) on image-to-imgae translation.
