@@ -5,7 +5,7 @@ title: Irene Wang
 name: Irene Wang
 chinese_name: 王郁婷
 student_id: b04902040
-status: ongoing
+status: graduated
 program: Undergraduate
 entry_year: 2015
 exit_year: 
