@@ -6,8 +6,8 @@ name: Erick Chandra
 chinese_name: Erick Chandra
 student_id: r06922147
 status: ongoing
-program: Master student
-entry_year: 2017
+program: PhD student
+entry_year: 2019
 exit_year:
 link: true
 external_url:
