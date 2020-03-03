@@ -5,7 +5,7 @@ title: Jacky Yeh
 name: Jacky Yeh
 chinese_name: 葉俊言
 student_id: r05922094
-status: ongoing
+status: gratuated
 program: Master student
 entry_year: 2016
 exit_year: 
