@@ -5,7 +5,7 @@ title: Devina Ekawati
 name: Devina Ekawati
 chinese_name: 王廉花
 student_id: r06922156
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2017
 exit_year: 
