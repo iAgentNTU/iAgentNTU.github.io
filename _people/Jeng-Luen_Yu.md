@@ -1,8 +1,8 @@
 ---
 layout: people
 hidden: true
-title: Yu
-name: Yu
+title: Jeng-Luen_Yu
+name: Jeng-Luen_Yu
 chinese_name: 余政倫
 student_id: r08922129
 status: ongoing
