@@ -5,10 +5,10 @@ title: Chi-Chia Huang
 name: Chi-Chia Huang
 chinese_name: 余政倫
 student_id: r08922129
-status: quit
+status: oggoing
 program: Master student
-entry_year: 2019
-exit_year: 2017
+entry_year: 2020
+exit_year:
 link: true
 external_url:
 image: /people/images/chengluen.jpeg
