@@ -23,6 +23,6 @@ email: r08922129 [at] ntu . edu . tw
 # linkedin: https://www.linkedin.com/
 facebook: https://www.facebook.com/profile.php?id=100000176897096
 ---
-Hi, I my name is Jeng-Luen Yu.I'm in the first year of the Master program.
+Hi, My name is Jeng-Luen Yu.I'm in the first year of the Master program.
 I'm interested in applications with CNN, especially which generate funny images.
 
