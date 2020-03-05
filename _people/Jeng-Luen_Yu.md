@@ -1,11 +1,11 @@
 ---
 layout: people
 hidden: true
-title: Chi-Chia Huang
-name: Chi-Chia Huang
+title: Yu
+name: Yu
 chinese_name: 余政倫
 student_id: r08922129
-status: oggoing
+status: ongoing
 program: Master student
 entry_year: 2020
 exit_year:
