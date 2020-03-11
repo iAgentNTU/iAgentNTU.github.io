@@ -16,7 +16,7 @@ research_interests: Computer Vision, Deep Learning
 show_project: false # false if you do not have any project yet
 brief:
 # bibsrc: /people/bibtex/chichia.bib
-bibsrc: "#bibtex" # path to bib file or DOM id
+# bibsrc: "#bibtex" # path to bib file or DOM id
 
 email: ihza1081@gmail.com
 # homepage:
