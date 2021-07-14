@@ -11,7 +11,7 @@ entry_year: 2021
 exit_year:
 link: true
 external_url:
-image: /people/images/yangsheng.JPG
+image: /people/images/yangsheng.jpg
 research_interests: Machine Learning, Deep Learning, GAN
 show_project: false
 brief: 
