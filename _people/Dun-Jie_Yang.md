@@ -1,36 +1,39 @@
 ---
 layout: people
 hidden: true
-title: Chi-Chia Huang
-name: Chi-Chia Huang
-chinese_name: 黃啟嘉
-student_id: d01944003
-status: quit
-program: PhD student
-entry_year: 2012
-exit_year: 2017
+title: Dun-Jie Yang
+name: Dun-Jie Yang
+chinese_name: 楊敦捷
+student_id: 
+status: ongoing
+program: Master student
+entry_year: 2021
+exit_year: 
 link: true
 external_url:
-image: /people/images/chichia.jpg
-research_interests: recommender system, internet of things
+image: /people/images/Dun-Jie_Yang.JPG
+research_interests: NLP,NLG
 show_project: true
 brief: 
 # bibsrc: /people/bibtex/chichia.bib
 bibsrc: '#bibtex'
 
-email:
+email:Jeffjeff980010@gmail.com
   href: "http://www.google.com/recaptcha/mailhide/d?k=01MhlRNlCYMQRB3CtGk9pPWQ==&amp;c=Seat9oiuZshm6ibK_MUDZilOr7fBybQahRY7P83oUwM="
   onclick: "window.open('http://www.google.com/recaptcha/mailhide/d?k\\07501MhlRNlCYMQRB3CtGk9pPWQ\\75\\75\\46c\\75Seat9oiuZshm6ibK_MUDZilOr7fBybQahRY7P83oUwM\\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
 homepage: 
-facebook: https://www.facebook.com/Huang.ChiChia
-linkedin: https://www.linkedin.com/in/chichiah
-twitter: https://twitter.com/Chifatty
-github: https://github.com/chifatty
+facebook: https://www.facebook.com/profile.php?id=100003979903595
+linkedin: 
+twitter: 
+github: https://github.com/Jeff-67
 ---
 
 <br />
 
-Hi, my name is Chi-Chia Huang. My friends usually call me Chi-Chia or Chi-Pang. I am currently pursuing PhD degrees in National Taiwan University. I received my mater's degree in computer science from NTU in 2009 and bachelor's degree in computer science from National Chiao Tung University in 2006. I have three years working experience in Insitute for Information Industry from 2009 to 2012.
+Hi people! This is Yang Dun Jie and you can call me Jeffy.
+I am currently pursuing Master degree in National Taiwan University.
+I received my bachelor's degree in machanical engineering from NCKU in 2019.
+My favorite lab is iAgentsLab. 
 
 My research interests are Machine Learning, Recommender System and Human Computer Interaction. Although I still do not have concrete idea, my goal is to make people feel that machines are intelligent, machines have thought, and machines can understand people’s need. 
 
