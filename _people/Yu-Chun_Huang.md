@@ -5,7 +5,7 @@ title: Yu-Chun Huang
 name: Yu-Chun Huang
 chinese_name: 黃羑群
 student_id: d98922047
-status: ongoing
+status: quit
 program: PhD student
 entry_year: 2009
 exit_year:

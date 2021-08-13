@@ -5,10 +5,10 @@ title: Li-Chuan Yang
 name: Li-Chuan Yang
 chinese_name: 楊力權
 student_id: r07922100
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2018
-exit_year: 20XX
+exit_year: 2020
 link: true
 external_url:
 image: /people/images/LiChuan_Yang.jpg

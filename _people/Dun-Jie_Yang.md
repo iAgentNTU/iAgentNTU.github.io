@@ -12,15 +12,13 @@ exit_year:
 link: true
 external_url:
 image: /people/images/Dun-Jie_Yang.JPG
-research_interests: NLP,NLG
+research_interests: NLP, NLG
 show_project: true
 brief: 
 # bibsrc: /people/bibtex/chichia.bib
 bibsrc: '#bibtex'
 
-email:Jeffjeff980010@gmail.com
-  href: "http://www.google.com/recaptcha/mailhide/d?k=01MhlRNlCYMQRB3CtGk9pPWQ==&amp;c=Seat9oiuZshm6ibK_MUDZilOr7fBybQahRY7P83oUwM="
-  onclick: "window.open('http://www.google.com/recaptcha/mailhide/d?k\\07501MhlRNlCYMQRB3CtGk9pPWQ\\75\\75\\46c\\75Seat9oiuZshm6ibK_MUDZilOr7fBybQahRY7P83oUwM\\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+email: Jeffjeff980010[AT]gmail.com
 homepage: 
 facebook: https://www.facebook.com/profile.php?id=100003979903595
 linkedin: 

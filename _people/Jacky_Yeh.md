@@ -8,7 +8,7 @@ student_id: r05922094
 status: gratuated
 program: Master student
 entry_year: 2016
-exit_year: 
+exit_year: 2020
 link: true
 external_url:
 image: /people/images/Jacky_Yeh.jpg

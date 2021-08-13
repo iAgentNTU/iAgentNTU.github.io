@@ -5,10 +5,10 @@ title: Jean Wu
 name: Jean Wu
 chinese_name: 吳尚真
 student_id: r06944023
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2018
-exit_year:
+exit_year: 2020
 link: true
 external_url:
 image: /people/images/JeanWu.jpg

@@ -5,7 +5,7 @@ title: Hung-Chih Chang
 name: Hung-Chih Chang
 chinese_name: 張閎智
 student_id: d04922014
-status: ongoing
+status: quit
 program: PhD student
 entry_year: 2015
 exit_year: 

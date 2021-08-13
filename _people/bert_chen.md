@@ -5,10 +5,10 @@ title: Po Chun Chen
 name: Po Chun Chen
 chinese_name: 陳柏均
 student_id: r06922167
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2018
-exit_year: 
+exit_year: 2020
 link: true
 external_url:
 image: /people/images/PC_chen.jpg

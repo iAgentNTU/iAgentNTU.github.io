@@ -5,7 +5,7 @@ title: Yu-Ju Chen
 name: Yu-Ju Chen
 chinese_name: 陳昱儒
 student_id: b04902063
-status: ongoing
+status: graduated
 program: Undergraduate
 entry_year: 2017
 exit_year: 2018
