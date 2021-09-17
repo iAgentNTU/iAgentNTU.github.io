@@ -26,6 +26,6 @@ facebook: https://www.facebook.com/profile.php?id=100000375635784
 github: https://github.com/jason2714
 ---
 
-Hi, I’m Yang-Sheng Lin, now pursuing Master’s degree in computer science in National Taiwan Universarity.I received my bachelor’s degree in computer science from National Taiwan Ocean University in 2021
+Hi, I’m Yang-Sheng Lin, now pursuing Master’s degree in computer science in National Taiwan University.I received my bachelor’s degree in computer science from National Taiwan Ocean University in 2021
 
 My research interests are Machine Learning, Deep Learning and GAN.
