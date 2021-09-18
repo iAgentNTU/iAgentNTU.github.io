@@ -27,4 +27,6 @@ github: https://github.com/mingking2048
 ---
 
 Hi, I’m MING-YI  CHIN, I graduated from National Chung Hsing University in 2021,I am currently pursuing master degree in computer science in National Taiwan University
+
+
 My research interests are Machine Learning, Deep Learning
