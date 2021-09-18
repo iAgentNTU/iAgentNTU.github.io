@@ -26,6 +26,5 @@ facebook: https://www.facebook.com/ming.king.9
 github: https://github.com/mingking2048
 ---
 
-Hi, I’m Yang-Sheng Lin, now pursuing Master’s degree in computer science in National Taiwan University.I received my bachelor’s degree in computer science from National Taiwan Ocean University in 2021
-
-My research interests are Machine Learning, Deep Learning and GAN.
+Hi, I’m MING-YI  CHIN, I graduated from National Chung Hsing University in 2021,I am currently pursuing master degree in computer science in National Taiwan University
+My research interests are Machine Learning, Deep Learning
