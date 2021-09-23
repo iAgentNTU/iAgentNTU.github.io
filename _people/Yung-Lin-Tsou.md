@@ -18,7 +18,7 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 # bibsrc: '#bibtex'
 
-email: r09922176[at]csie.ntu.edu.tw
+email: https://mailhide.io/e/ilWBkW18
 homepage: 
 facebook: 
 github: https://github.com/TonyTTTTT
