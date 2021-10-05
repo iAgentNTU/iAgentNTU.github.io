@@ -8,22 +8,22 @@ student_id: r09922126
 status: ongoing
 program: Master student
 entry_year: 2020
-exit_year: 
+exit_year:
 link: true
 external_url:
 image: /people/images/yuhuan.jpg
 research_interests: Adversarial attack
 show_project: false
-brief: 
+brief:
 # bibsrc: /people/bibtex/chichia.bib
-bibsrc: '#bibtex'
+# bibsrc: '#bibtex'
 
 email: r09922126@csie.ntu.edu.tw
-homepage: 
-facebook: 
+homepage:
+facebook:
 linkedin:
-twitter: 
-github: 
+twitter:
+github:
 ---
 
 <br />
