@@ -18,7 +18,9 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 bibsrc: '#bibtex'                                            # path to bib file or DOM id 
 
-email: comic199298@gmail.com.tw
+email: 
+    href: "https://mailhide.io/e/HzEy19Df" 
+    onclick: "popup=window.open('https://mailhide.io/e/HzEy19Df','mailhidepopup','width=580,height=635'); return false;"
 homepage: 
 facebook: 
 linkedin: http://linkedin.com/in/tzu-shuo-wei-2aa194158

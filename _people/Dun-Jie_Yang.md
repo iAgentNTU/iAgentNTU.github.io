@@ -18,7 +18,9 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 bibsrc: '#bibtex'
 
-email: Jeffjeff980010[AT]gmail.com
+email: 
+    href: "https://mailhide.io/e/h2DiFZQQ" 
+    onclick: "popup=window.open('https://mailhide.io/e/h2DiFZQQ','mailhidepopup','width=580,height=635'); return false;"
 homepage: 
 facebook: https://www.facebook.com/profile.php?id=100003979903595
 linkedin: 
