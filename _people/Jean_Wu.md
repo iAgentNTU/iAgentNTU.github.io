@@ -18,9 +18,9 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 #bibsrc: '#bibtex'
 
-email: r06944023 [at] csie . ntu . edu . tw
-  #href: "http://www.google.com/recaptcha/mailhide/d?k=01MhlRNlCYMQRB3CtGk9pPWQ==&amp;c=Seat9oiuZshm6ibK_MUDZilOr7fBybQahRY7P83oUwM="
-  #onclick: "window.open('http://www.google.com/recaptcha/mailhide/d?k\\07501MhlRNlCYMQRB3CtGk9pPWQ\\75\\75\\46c\\75Seat9oiuZshm6ibK_MUDZilOr7fBybQahRY7P83oUwM\\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+email: 
+  href: "https://mailhide.io/e/CJovWvMm" 
+  onclick: "popup=window.open('https://mailhide.io/e/CJovWvMm','mailhidepopup','width=580,height=635'); return false;"
 #homepage:
 facebook: https://www.facebook.com/profile.php?id=100000159523687
 #linkedin: https://www.linkedin.com/in/chichiah

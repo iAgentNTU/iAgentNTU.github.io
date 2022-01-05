@@ -17,7 +17,9 @@ show_project: true
 brief:
 bibsrc: /people/bibtex/shuyu.bib
 
-email: space83725 [at] gmail . com
+email: 
+    href: "https://mailhide.io/e/c8JBcSxE" 
+    onclick: "popup=window.open('https://mailhide.io/e/c8JBcSxE','mailhidepopup','width=580,height=635'); return false;"
 # homepage:
 facebook: https://www.facebook.com/kevin.hsu.3781
 # linkedin: https://www.linkedin.com/

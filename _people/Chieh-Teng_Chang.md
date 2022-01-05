@@ -17,7 +17,9 @@ show_project: false
 brief:
 # bibsrc: '#bibtex'
 
-email: scott820914 [at] gmail . com
+email: 
+    href: "https://mailhide.io/e/WMAzhoML" 
+    onclick: "popup=window.open('https://mailhide.io/e/WMAzhoML','mailhidepopup','width=580,height=635'); return false;"
 # homepage: 
 facebook: https://www.facebook.com/scott820914
 # linkedin: https://www.linkedin.com/

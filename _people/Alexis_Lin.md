@@ -16,7 +16,9 @@ show_project: false
 brief:
 # bibsrc: '#bibtex'
 
-email: r06944003@csie.ntu.edu.tw
+email: 
+    href: "https://mailhide.io/e/dOKDRqPg" 
+    onclick: "popup=window.open('https://mailhide.io/e/dOKDRqPg','mailhidepopup','width=580,height=635'); return false;"
 # homepage: 
 facebook: https://www.facebook.com/alexis.lin.tw.1
 linkedin: https://www.linkedin.com/in/alexislintw/

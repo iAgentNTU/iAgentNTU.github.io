@@ -17,7 +17,9 @@ research_interests: human computer interaction, crowd sourcing
 brief:
 # bibsrc: /people/bibtex/hungchi.bib
 bibsrc: '#bibtex'
-email: osiris.hclee[AT]gmail.com
+email: 
+    href: "https://mailhide.io/e/WFPQH7SA" 
+    onclick: "popup=window.open('https://mailhide.io/e/WFPQH7SA','mailhidepopup','width=580,height=635'); return false;"
 facebook: https://www.facebook.com/hungchi.lee.1
 ---
 

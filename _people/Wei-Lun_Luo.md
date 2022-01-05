@@ -17,7 +17,9 @@ show_project: false
 brief: 
 bibsrc: 
 
-email: r07922125@csie.ntu.edu.tw
+email:  
+    href: "https://mailhide.io/e/adjJNDyl" 
+    onclick: "popup=window.open('https://mailhide.io/e/adjJNDyl','mailhidepopup','width=580,height=635'); return false;"
 homepage: 
 facebook: https://www.facebook.com/profile.php?id=100003377083198&ref=bookmarks
 linkedin: 

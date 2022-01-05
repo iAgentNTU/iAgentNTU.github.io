@@ -17,7 +17,9 @@ show_project: false
 brief:
 # bibsrc: '#bibtex'
 
-email: jackyyeh511 [at] gmail . com
+email: 
+    href: "https://mailhide.io/e/G5IkE5ZZ" 
+    onclick: "popup=window.open('https://mailhide.io/e/G5IkE5ZZ','mailhidepopup','width=580,height=635'); return false;"
 # homepage: 
 facebook: https://www.facebook.com/profile.php?id=100000041252539
 # linkedin: https://www.linkedin.com/

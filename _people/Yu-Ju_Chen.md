@@ -18,7 +18,9 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 #bibsrc: '#bibtex'
 
-email: yuju1328 [at] gmail . com
+email:   
+    href: "https://mailhide.io/e/qF9MzT0O" 
+    onclick: "popup=window.open('https://mailhide.io/e/qF9MzT0O','mailhidepopup','width=580,height=635'); return false;"
 facebook: https://www.facebook.com/YujuChen63
 linkedin: https://www.linkedin.com/in/YuJuChen63
 #twitter: 

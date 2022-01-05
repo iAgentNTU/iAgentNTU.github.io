@@ -17,7 +17,9 @@ show_project: false
 brief:
 # bibsrc: '#bibtex'
 
-email: amuro0 [at] gmail . com
+email:   
+    href: "https://mailhide.io/e/v9EaY9Z2" 
+    onclick: "popup=window.open('https://mailhide.io/e/v9EaY9Z2','mailhidepopup','width=580,height=635'); return false;"
 # homepage: 
 facebook: https://www.facebook.com/Sonic2Sonic2
 # linkedin: https://www.linkedin.com/

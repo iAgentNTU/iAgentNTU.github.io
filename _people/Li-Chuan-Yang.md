@@ -17,7 +17,9 @@ show_project: true
 brief: 
 # bibsrc: '#bibtex'
 
-email: r07922100@ntu.edu.tw
+email: 
+    href: "https://mailhide.io/e/LORKNsmJ" 
+    onclick: "popup=window.open('https://mailhide.io/e/LORKNsmJ','mailhidepopup','width=580,height=635'); return false;"
 facebook: https://www.facebook.com/simonsheep
 github: https://github.com/monkey1208
 ---
