@@ -18,8 +18,10 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 # bibsrc: '#bibtex'
 
-email: https://mailhide.io/e/ilWBkW18
-homepage: 
+email: 
+    href: "https://mailhide.io/e/ilWBkW18" 
+    onclick: "popup=window.open('https://mailhide.io/e/ilWBkW18','mailhidepopup','width=580,height=635'); return false;"
+homepage:
 facebook: 
 github: https://github.com/TonyTTTTT
 ---

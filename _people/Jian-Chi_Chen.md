@@ -17,7 +17,9 @@ show_project: false
 brief:
 # bibsrc: '#bibtex'
 
-email: r10922130 [at] ntu . edu . tw
+email:
+    href: "https://mailhide.io/e/QExmFITt" 
+    onclick: "popup=window.open('https://mailhide.io/e/QExmFITt','mailhidepopup','width=580,height=635'); return false;"
 # homepage: 
 
 # linkedin: https://www.linkedin.com/
