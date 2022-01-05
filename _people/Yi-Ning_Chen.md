@@ -18,7 +18,9 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 # bibsrc: '#bibtex'
 
-email: emilynov14@gmail.com
+email: 
+    href: "https://mailhide.io/e/G1qA9Ytq" 
+    onclick: "popup=window.open('https://mailhide.io/e/G1qA9Ytq','mailhidepopup','width=580,height=635'); return false;"
 homepage:
 facebook: https://www.facebook.com/emily.chen.505523/
 linkedin: https://www.linkedin.com/in/emily-chen-4244681a7/

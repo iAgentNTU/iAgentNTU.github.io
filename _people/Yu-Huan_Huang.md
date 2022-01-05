@@ -18,7 +18,9 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 # bibsrc: '#bibtex'
 
-email: r09922126@csie.ntu.edu.tw
+email: 
+    href: "https://mailhide.io/e/kOJWlcUe" 
+    onclick: "popup=window.open('https://mailhide.io/e/kOJWlcUe','mailhidepopup','width=580,height=635'); return false;"
 homepage:
 facebook:
 linkedin:
