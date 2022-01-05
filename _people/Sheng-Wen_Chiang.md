@@ -17,7 +17,9 @@ show_project: false
 brief:
 # bibsrc: '#bibtex'
 
-email: david942j[AT]gmail.com
+email: 
+    href: "https://mailhide.io/e/N3PALOrp" 
+    onclick: "popup=window.open('https://mailhide.io/e/N3PALOrp','mailhidepopup','width=580,height=635'); return false;"
 # homepage: 
 # twitter: 
 github: https://github.com/david942j

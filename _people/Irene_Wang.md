@@ -18,7 +18,9 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 #bibsrc: '#bibtex'
 
-email: irenewang040986 [at] gmail . com
+email: 
+    href: "https://mailhide.io/e/mdM7eRKD" 
+    onclick: "popup=window.open('https://mailhide.io/e/mdM7eRKD','mailhidepopup','width=580,height=635'); return false;"
 facebook: https://www.facebook.com/irenewang040986
 #linkedin: https://www.linkedin.com/in/chichiah
 #twitter: https://twitter.com/Chifatty

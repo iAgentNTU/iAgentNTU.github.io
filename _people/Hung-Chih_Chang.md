@@ -15,7 +15,9 @@ image: /people/images/hcchang.jpg
 research_interests: 3d semantic mapping, image semantic segmentation
 show_project: false
 brief:
-email: r98941066@gmail.com
+email:  
+    href: "https://mailhide.io/e/FyXSXl2X" 
+    onclick: "popup=window.open('https://mailhide.io/e/FyXSXl2X','mailhidepopup','width=580,height=635'); return false;"
 linkedin: https://www.linkedin.com/in/hung-chih-chang-a22b528b
 github: https://github.com/hcchang
 

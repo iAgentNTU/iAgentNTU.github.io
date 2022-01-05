@@ -16,7 +16,9 @@ research_interests: Human-AI collaboration, Computer-Supported Creativity, CSCW,
 show_project: true
 brief:
 bibsrc: /people/bibtex/janetyc.bib
-email: y.c.huang[AT]tue.nl
+email: 
+    href: "https://mailhide.io/e/JxrhZWVB" 
+    onclick: "popup=window.open('https://mailhide.io/e/JxrhZWVB','mailhidepopup','width=580,height=635'); return false;"
 homepage: http://janetyc.github.io
 twitter: https://twitter.com/janetyc
 github: https://github.com/janetyc
