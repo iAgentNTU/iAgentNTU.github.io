@@ -18,7 +18,9 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 # bibsrc: '#bibtex'
 
-email: vicky8762330@gmail.com
+email: 
+  href: "https://mailhide.io/e/q1q8PXCw" 
+  onclick: "popup=window.open('https://mailhide.io/e/q1q8PXCw','mailhidepopup','width=580,height=635'); return false;"
 homepage:
 facebook: https://www.facebook.com/vickyyeh0623
 linkedin:
