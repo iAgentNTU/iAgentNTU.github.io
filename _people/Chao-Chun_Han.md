@@ -5,10 +5,10 @@ title: Chao-Chun Han
 name: Chao-Chun Han
 chinese_name: 韓兆駿
 student_id: 
-status: ongoing # [ongoing|graduated|quit]
+status: graduated # [ongoing|graduated|quit]
 program: Master student # [PhD student|Master student|Undergraduate]
 entry_year: 2019
-exit_year:
+exit_year: 2021
 link: true # Do not change
 external_url:
 image: /people/images/Chao-Chun_Han.jpg
