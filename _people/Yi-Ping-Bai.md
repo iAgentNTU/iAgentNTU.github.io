@@ -4,7 +4,7 @@ hidden: true # Do not change
 title: Yi-Ping Bai
 name: Yi-Ping Bai
 chinese_name: 白宜平
-student_id: r08922a11
+student_id: 
 status: ongoing # [ongoing|graduated|quit]
 program: Master student # [PhD student|Master student|Undergraduate]
 entry_year: 2019
@@ -18,9 +18,9 @@ brief:
 # bibsrc: /people/bibtex/yiping.bib
 #bibsrc: '#bibtex'                                            # path to bib file or DOM id
 
-email: r08922a11[at]ntu.edu.tw
-#  href: "http://www.google.com/recaptcha/mailhide/d?k=01MhlRNlCYMQRB3CtGk9pPWQ==&amp;c=Seat9oiuZshm6ibK_MUDZilOr7fBybQahRY7P83oUwM="
-#  onclick: "window.open('http://www.google.com/recaptcha/mailhide/d?k\\07501MhlRNlCYMQRB3CtGk9pPWQ\\75\\75\\46c\\75Seat9oiuZshm6ibK_MUDZilOr7fBybQahRY7P83oUwM\\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+email:
+  href: "https://mailhide.io/e/Xm7RBdTk"
+  onclick: "popup=window.open('https://mailhide.io/e/Xm7RBdTk','mailhidepopup','width=580,height=635'); return false;"
 homepage:
 facebook: https://www.facebook.com/yipingb1
 #linkedin: https://www.linkedin.com/in/chichiah
