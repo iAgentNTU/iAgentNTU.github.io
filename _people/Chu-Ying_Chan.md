@@ -5,10 +5,10 @@ title: Chu-Ying Chan
 name: Chu-Ying Chan
 chinese_name: 詹居穎
 student_id: 
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2018
-exit_year: 
+exit_year: 2021
 link: true
 external_url:
 image: /people/images/Chu-Ying_Chan.jpg
