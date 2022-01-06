@@ -4,7 +4,7 @@ hidden: true
 title: Li An Ting
 name: Li An Ting
 chinese_name: 丁立安
-student_id: r08922111
+student_id: 
 status: ongoing
 program: Master student
 entry_year: 2019
@@ -17,7 +17,9 @@ show_project: false
 brief:
 # bibsrc: '#bibtex'
 
-email: r08922111 [at] ntu . edu . tw
+email:
+    href: "https://mailhide.io/e/iBRDbjii"
+    onclick: "popup=window.open('https://mailhide.io/e/iBRDbjii','mailhidepopup','width=580,height=635'); return false;"
 # homepage: 
 facebook: https://www.facebook.com/profile.php?id=100000157315276
 # linkedin: https://www.linkedin.com/
