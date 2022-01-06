@@ -4,7 +4,7 @@ hidden: true
 title: Jeng Luen Yu
 name: Jeng Luen Yu
 chinese_name: 余政倫
-student_id: r08922129
+student_id: 
 status: ongoing
 program: Master student
 entry_year: 2019
@@ -17,7 +17,9 @@ show_project: false
 brief:
 # bibsrc: '#bibtex'
 
-email: r08922129 [at] ntu . edu . tw
+email:
+    href: "https://mailhide.io/e/CHtG8Q14"
+    onclick: "popup=window.open('https://mailhide.io/e/CHtG8Q14','mailhidepopup','width=580,height=635'); return false;"
 # homepage: 
 
 # linkedin: https://www.linkedin.com/
