@@ -8,7 +8,7 @@ student_id:
 status: graduated
 program: Master student
 entry_year: 2019
-exit_year: 2020
+exit_year: 2021
 link: true
 external_url:
 image: /people/images/weifan.JPG
