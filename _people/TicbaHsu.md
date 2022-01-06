@@ -4,7 +4,7 @@ hidden: true
 title: Chia Wei Hsu
 name: Chia Wei Hsu
 chinese_name: 許家瑋
-student_id: r08922105
+student_id: 
 status: ongoing
 program: Master student
 entry_year: 2019
@@ -17,7 +17,9 @@ show_project: false
 brief:
 # bibsrc: '#bibtex'
 
-email: r08922105 [at] ntu . edu . tw
+email:
+    href: "https://mailhide.io/e/FT41dsyR"
+    onclick: "popup=window.open('https://mailhide.io/e/FT41dsyR','mailhidepopup','width=580,height=635'); return false;"
 # homepage: 
 
 # linkedin: https://www.linkedin.com/
