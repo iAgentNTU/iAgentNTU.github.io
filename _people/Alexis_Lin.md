@@ -4,10 +4,10 @@ hidden: true
 title: Alexis Lin
 name: Alexis Lin
 student_id: r06944003
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2017
-exit_year:
+exit_year: 2021
 link: true
 external_url: 
 image: /people/images/AlexisLin.jpg
