@@ -4,8 +4,8 @@ hidden: true                                                 # Do not change
 title: Nien-Tse Lin
 name: Nien-Tse Lin
 chinese_name: 林念澤
-student_id: r08922122
-status: ongoing                                              # [ongoing|graduated|quit]
+student_id: 
+status: graduated                                            # [ongoing|graduated|quit]
 program: Master student                                      # [PhD student|Master student|Undergraduate]
 entry_year: 2019
 exit_year: 
@@ -17,7 +17,9 @@ show_project: false                                          # false if you do n
 #brief: 
 #bibsrc:                                                     # path to bib file or DOM id 
 
-email: r08922122@ntu.edu.tw
+email:
+    href: "https://mailhide.io/e/8CcoBbRA"
+    onclick: "popup=window.open('https://mailhide.io/e/8CcoBbRA','mailhidepopup','width=580,height=635'); return false;"
   
 #homepage: 
 facebook: https://www.facebook.com/profile.php?id=100007025073236
