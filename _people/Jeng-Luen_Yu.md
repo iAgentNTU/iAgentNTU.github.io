@@ -5,10 +5,10 @@ title: Jeng Luen Yu
 name: Jeng Luen Yu
 chinese_name: 余政倫
 student_id: 
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2019
-exit_year: 
+exit_year: 2021
 link: true
 external_url:
 image: /people/images/chengluen.png
