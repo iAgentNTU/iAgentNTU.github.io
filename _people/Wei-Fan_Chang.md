@@ -5,10 +5,10 @@ title: Wei-Fan Chang
 name: Wei-Fan Chang
 chinese_name: 張葳凡
 student_id: 
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2019
-exit_year:
+exit_year: 2020
 link: true
 external_url:
 image: /people/images/weifan.JPG
