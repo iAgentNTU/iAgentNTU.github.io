@@ -8,7 +8,7 @@ student_id:
 status: graduated                                            # [ongoing|graduated|quit]
 program: Master student                                      # [PhD student|Master student|Undergraduate]
 entry_year: 2019
-exit_year: 
+exit_year: 2021
 link: true                                                   # Do not change
 #external_url:
 image: /people/images/NienTse.jpg
