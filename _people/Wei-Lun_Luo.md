@@ -4,11 +4,11 @@ hidden: true
 title: Wei-Lun Luo
 name: Wei-Lun Luo
 chinese_name: 羅偉倫
-student_id: r07922125
-status: ongoing
+student_id: 
+status: graduated
 program: Master student
 entry_year: 2018
-exit_year: 
+exit_year: 2020
 link: true
 external_url:
 image: /people/images/Wei-Lun_Luo.jpg
