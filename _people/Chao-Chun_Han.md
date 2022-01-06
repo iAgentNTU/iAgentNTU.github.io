@@ -4,7 +4,7 @@ hidden: true # Do not change
 title: Chao-Chun Han
 name: Chao-Chun Han
 chinese_name: 韓兆駿
-student_id: r08922127
+student_id: 
 status: ongoing # [ongoing|graduated|quit]
 program: Master student # [PhD student|Master student|Undergraduate]
 entry_year: 2019
@@ -18,7 +18,9 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 # bibsrc: "#bibtex" # path to bib file or DOM id
 
-email: ihza1081@gmail.com
+email:
+    href: "https://mailhide.io/e/Z4YwNIdR"
+    onclick: "popup=window.open('https://mailhide.io/e/Z4YwNIdR','mailhidepopup','width=580,height=635'); return false;"
 # homepage:
 facebook: https://www.facebook.com/profile.php?id=100002508051919
 # linkedin:
