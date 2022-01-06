@@ -4,7 +4,7 @@ hidden: true
 title: Chu-Ying Chan
 name: Chu-Ying Chan
 chinese_name: 詹居穎
-student_id: r07922131
+student_id: 
 status: ongoing
 program: Master student
 entry_year: 2018
@@ -17,7 +17,9 @@ show_project: false
 brief: 
 bibsrc: 
 
-email: r07922131@ntu.edu.tw
+email:
+    href: "https://mailhide.io/e/oGfH3aB1"
+    onclick: "popup=window.open('https://mailhide.io/e/oGfH3aB1','mailhidepopup','width=580,height=635'); return false;"
 homepage: 
 facebook: https://www.facebook.com/s2628355
 linkedin: 
