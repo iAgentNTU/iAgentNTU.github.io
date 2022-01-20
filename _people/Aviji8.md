@@ -1,10 +1,10 @@
 ---
 layout: people
 hidden: true
-title: Avijit Bakabantaray
+title: Avijit Balabantaray
 name: Avijit Balabantaray
 student_id: 
-status: graduated
+status: ongoing
 program: Master student
 entry_year: 2021
 exit_year: 
