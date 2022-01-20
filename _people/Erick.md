@@ -4,7 +4,7 @@ hidden: true
 title: Erick Chandra
 name: Erick Chandra
 chinese_name: Erick Chandra
-student_id: r06922147
+student_id: 
 status: ongoing
 program: PhD student
 entry_year: 2019
@@ -27,7 +27,7 @@ github: https://github.com/erickchandra
 
 <br />
 
-Hi, my name is Erick Chandra. I am currently pursuing master degree in National Taiwan University. I received my bachelor's degree in informatics/computer science from Institut Teknologi Bandung in 2017.
+Hi, my name is Erick Chandra. I am currently pursuing doctoral degree in National Taiwan University. I received my bachelor's degree in informatics/computer science from Institut Teknologi Bandung in 2017, and master's degree in computer science and information engineering from National Taiwan University in 2019.
 
 My research interests are Artificial Intelligence, Machine Learning, and Deep Learning.
 
