@@ -1,6 +1,6 @@
 ---
 layout: people
-hidden: true
+hidden: false
 title: Avijit Balabantaray
 name: Avijit Balabantaray
 student_id: 
