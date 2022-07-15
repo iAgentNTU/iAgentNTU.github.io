@@ -16,7 +16,7 @@ research_interests: Machine Learning, Deep Learning
 show_project: false
 brief: 
 # bibsrc: /people/bibtex/chichia.bib
-bibsrc: '#bibtex'
+# bibsrc: '#bibtex'
 
 email: 
 	href: "https://mailhide.io/e/Uy8jXul6" 
