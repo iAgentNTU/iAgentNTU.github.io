@@ -13,7 +13,7 @@ link: true
 external_url:
 image: /people/images/Sheng-Wei_Li.jpg
 research_interests: DL, NLP, CV
-show_project: true
+show_project: false
 brief: 
 
 email: swli-iagents.9vj9n@slmail.me
