@@ -19,8 +19,8 @@ brief:
 # bibsrc: '#bibtex'
 
 email: 
-	href: "https://mailhide.io/e/Uy8jXul6" 
-	onclick: "popup=window.open('https://mailhide.io/e/Uy8jXul6','mailhidepopup','width=580,height=635'); return false;"
+    href: "https://mailhide.io/e/Uy8jXul6" 
+    onclick: "popup=window.open('https://mailhide.io/e/Uy8jXul6','mailhidepopup','width=580,height=635'); return false;"
 homepage: 
 facebook: https://www.facebook.com/profile.php?id=100004252357428
 linkedin: 
