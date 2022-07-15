@@ -32,7 +32,7 @@ github: https://github.com/KevinLuuuuu
 
 Hi, I’m Zhao-Kai Lu. I am pursuing Master's degree in National Taiwan University currently. I received my Bachelor's degree in Computer Science from National Cheng Kung University in 2022.  
 
-My research interests are machine learning & deep learning.
+My research interests are machine learning and its application.
 
 
 
