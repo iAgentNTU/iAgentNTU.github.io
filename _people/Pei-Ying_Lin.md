@@ -18,7 +18,7 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 # bibsrc: '#bibtex'
 
-email: pearlie.lin10@gmail.com
+email: https://mailhide.io/e/Eym2DOhJ
 homepage: 
 facebook: https://www.facebook.com/pearlie.lin11
 linkedin: https://www.linkedin.com/in/pei-ying-lin-b42248189
