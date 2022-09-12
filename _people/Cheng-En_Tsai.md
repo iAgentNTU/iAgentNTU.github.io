@@ -4,7 +4,7 @@ hidden: true
 title: Cheng-En Tsai
 name: Cheng-En Tsai
 chinese_name: 蔡承恩
-student_id: d11944008
+student_id: 
 status: ongoing
 program: PhD student
 entry_year: 2022
