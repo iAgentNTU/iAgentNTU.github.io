@@ -11,12 +11,12 @@ entry_year: 2022
 exit_year:
 link: true
 external_url:
-image: /_people/images/antoni_maciag.jpg
+image: /people/images/antoni_maciag.jpg
 research_interests: natural language processing
 show_project: false
 brief: 
 # bibsrc: /people/bibtex/chichia.bib
-bibsrc: 
+# bibsrc: 
 
 email:
     href: "https://mailhide.io/e/fIJFPelE"
