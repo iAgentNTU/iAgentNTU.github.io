@@ -18,7 +18,7 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 bibsrc: 
 
-email: https://mailhide.io/e/fIJFPelE
+email:
     href: "https://mailhide.io/e/fIJFPelE"
     onclick: "popup=window.open('https://mailhide.io/e/fIJFPelE','mailhidepopup','width=580,height=635'); return false;"
 # homepage: 
