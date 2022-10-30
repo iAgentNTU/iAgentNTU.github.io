@@ -11,7 +11,7 @@ entry_year: 2022
 exit_year:
 link: true
 external_url:
-image: /_people/images/antoni_maciag.png
+image: /_people/images/antoni_maciag.jpg
 research_interests: natural language processing
 show_project: false
 brief: 
@@ -19,10 +19,12 @@ brief:
 bibsrc: 
 
 email: https://mailhide.io/e/fIJFPelE
-homepage: 
+    href: "https://mailhide.io/e/fIJFPelE"
+    onclick: "popup=window.open('https://mailhide.io/e/fIJFPelE','mailhidepopup','width=580,height=635'); return false;"
+# homepage: 
 facebook: https://www.facebook.com/antoni.maciag
 linkedin: https://www.linkedin.com/in/antoni-maci%C4%85g-04779b200/
-twitter:
+# twitter:
 github: https://github.com/whitejeep600
 ---
 
