@@ -34,4 +34,4 @@ I received my bachelor's degree in the department of Information Management, Nat
 
 My research interests include but not limit to Artificial Intelligence, Machine Learning and Data Science.  
 
-Have been to UK for six months as an exchange student, love exploring new things and traveling around the world.
+And I've been to UK for six months as an exchange student, love exploring new things and traveling around the world.
