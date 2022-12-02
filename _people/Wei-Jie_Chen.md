@@ -32,4 +32,6 @@ I'm Wei-Jie Chen or Jack Chen, currently pursing master's degree in the departme
 
 I received my bachelor's degree in the department of Information Management, National Taiwan University (NTU IM), with Business Analytics (BA) Program.  
 
-My research interests include but not limit to Artificial Intelligence, Machine Learning and Data Science.
+My research interests include but not limit to Artificial Intelligence, Machine Learning and Data Science.  
+
+Have been to UK for six months as an exchange student, love exploring new things and traveling around the world.
