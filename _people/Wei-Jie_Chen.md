@@ -21,7 +21,7 @@ email:
     href: "https://mailhide.io/e/n9UjvTXU" 
     onclick: "popup=window.open('https://mailhide.io/e/n9UjvTXU','mailhidepopup','width=580,height=635'); return false;"
 homepage: 
-facebook: https://www.facebook.com/jack.chen.89311/
+facebook: 
 linkedin: https://www.linkedin.com/in/jack-chen-2000/
 github: https://github.com/JackChen890311
 ---
