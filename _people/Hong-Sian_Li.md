@@ -18,9 +18,9 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 bibsrc: '#bibtex'
 
-email:	neil870925ab@gmail.com
+email:	https://mailhide.io/e/VPunLGkT
 homepage: 
-facebook: https://www.facebook.com/profile.php?id=100002435703898
+facebook: 
 ---
 
 <br />
