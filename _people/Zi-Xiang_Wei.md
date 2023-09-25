@@ -4,7 +4,7 @@ hidden: true
 title: Sean Zi-Xiang Wei
 name: Sean Zi-Xiang Wei
 chinese_name: 魏子翔
-student_id: r12922147
+student_id: 
 status: ongoing
 program: Master student
 entry_year: 2023
@@ -18,7 +18,7 @@ brief:
 
 email: https://mailhide.io/e/bGghaVUY
 homepage:
-facebook: https://www.facebook.com/AAAAAA30678/
+facebook: 
 linkedin: https://www.linkedin.com/in/zxwei-6b75201a0/
 github: https://github.com/blafea
 ---
