@@ -16,7 +16,7 @@ research_interests: NLP, CV
 show_project: false
 brief:
 
-email: blafea221651@gmail.com
+email: https://mailhide.io/e/bGghaVUY
 homepage:
 facebook: https://www.facebook.com/AAAAAA30678/
 linkedin: https://www.linkedin.com/in/zxwei-6b75201a0/
