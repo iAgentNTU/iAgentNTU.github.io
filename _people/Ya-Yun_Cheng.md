@@ -4,7 +4,7 @@ hidden: true
 title: Ya-Yun Cheng
 name: Ya-Yun Cheng
 chinese_name: 鄭雅勻
-student_id: r12922062
+student_id: 
 status: ongoing
 program: Master student
 entry_year: 2023
