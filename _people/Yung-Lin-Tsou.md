@@ -5,24 +5,24 @@ title: Yung-Lin Tsou
 name: Yung-Lin Tsou
 chinese_name: 鄒咏霖
 student_id: r09922176
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2020
-exit_year: TBD
+exit_year: 2023
 link: true
 external_url:
 image: /people/images/TonyT.jpg
 research_interests: NLP, CV, HCI
 show_project: false
-brief: 
+brief:
 # bibsrc: /people/bibtex/chichia.bib
 # bibsrc: '#bibtex'
 
-email: 
-    href: "https://mailhide.io/e/ilWBkW18" 
+email:
+    href: "https://mailhide.io/e/ilWBkW18"
     onclick: "popup=window.open('https://mailhide.io/e/ilWBkW18','mailhidepopup','width=580,height=635'); return false;"
 homepage:
-facebook: 
+facebook:
 github: https://github.com/TonyTTTTT
 ---
 
