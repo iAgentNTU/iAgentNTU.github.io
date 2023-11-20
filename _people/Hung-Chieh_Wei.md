@@ -5,7 +5,7 @@ title: Hung-Chieh Wei
 name: Hung-Chieh Wei
 chinese_name: 魏宏杰
 student_id: r09922173
-status: ongoing
+status: quit
 program: Master student
 entry_year: 2021
 exit_year:

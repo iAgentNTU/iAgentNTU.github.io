@@ -5,21 +5,21 @@ title: Yang-Sheng Lin
 name: Yang-Sheng Lin
 chinese_name: 林揚昇
 student_id: r10922140
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2021
-exit_year:
+exit_year: 2023
 link: true
 external_url:
 image: /people/images/yangsheng.jpg
 research_interests: Machine Learning, Deep Learning, GAN
 show_project: false
-brief: 
+brief:
 # bibsrc: /people/bibtex/chichia.bib
-# bibsrc: '#bibtex' # path to bib file or DOM id 
+# bibsrc: '#bibtex' # path to bib file or DOM id
 
-email: 
-    href: "https://mailhide.io/e/DiWjAWkc" 
+email:
+    href: "https://mailhide.io/e/DiWjAWkc"
     onclick: "popup=window.open('https://mailhide.io/e/DiWjAWkc','mailhidepopup','width=580,height=635'); return false;"
 #homepage:
 facebook: https://www.facebook.com/profile.php?id=100000375635784

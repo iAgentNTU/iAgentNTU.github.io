@@ -5,10 +5,10 @@ title: Yi-Ning Chen
 name: Yi-Ning Chen
 chinese_name: 陳逸寧
 student_id: r09922153
-status: ongoing
+status: graduated
 program: Master student
 entry_year: 2020
-exit_year:
+exit_year: 2022
 link: true
 external_url:
 image: /people/images/yining.jpg
@@ -18,8 +18,8 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 # bibsrc: '#bibtex'
 
-email: 
-    href: "https://mailhide.io/e/G1qA9Ytq" 
+email:
+    href: "https://mailhide.io/e/G1qA9Ytq"
     onclick: "popup=window.open('https://mailhide.io/e/G1qA9Ytq','mailhidepopup','width=580,height=635'); return false;"
 homepage:
 facebook: https://www.facebook.com/emily.chen.505523/
