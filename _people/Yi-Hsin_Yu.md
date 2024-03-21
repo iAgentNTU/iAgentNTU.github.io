@@ -4,11 +4,11 @@ hidden: true
 title: Yi-Hsin Yu
 name: Yi-Hsin Yu
 chinese_name: 游一心
-student_id: r12922220
+student_id: 
 status: ongoing
 program: Master student
 entry_year: 2024
-exit_year: 2025
+exit_year: 
 link: true
 external_url:
 image: /people/images/yihsin.jpg
@@ -18,7 +18,7 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 bibsrc: '#bibtex'
 
-email: r12922220@csie.ntu.edu.tw
+email: 
 homepage: 
 facebook:
 linkedin:
