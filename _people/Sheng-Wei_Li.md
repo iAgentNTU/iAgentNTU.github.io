@@ -12,17 +12,16 @@ exit_year:
 link: true
 external_url:
 image: /people/images/Sheng-Wei_Li.jpg
-research_interests: Multi-Modal Deep Learning, Natural Language Processing
+bibsrc: /people/bibtex/oscarli.bib
+research_interests: Generative AI, Multi-Modal Deep Learning
 show_project: false
 brief:
 
 email: swli-iagents.9vj9n@slmail.me
-homepage:
+homepage: https://www.csie.ntu.edu.tw/~r11944004/
 github: https://github.com/pha123661
 ---
 
-Hello, my name is Sheng-Wei Li (李勝維) but you can call me Oscar. I recently graduated from NCTU with a Bachelor's degree in Computer Science.
+Hi! My name is Sheng-Wei Li, also known as Oscar. I hold a Bachelor's degree in Computer Science from the National Chiao Tung University (NCTU).
 
-I like playing darts and recently ranked up to (DARTSLIVE) RATING 9. Along with this, I also like to read novels. My all-time favorite novel is <a href="https://book.qidian.com/info/1003242530/">孺子帝</a>.
-
-Additionally, my research interests lie in the field of Deep Learning, specifically in the areas of Multi-Modal Deep Learning, Natural Language Processing and Parameter-Efficient Tuning (Delta Tuning). I am passionate about exploring the potential of these technologies and finding ways to apply them in innovative and impactful ways.
+While I enjoy recreational activities like playing darts (currently ranked (DARTSLIVE) RATING 9!), my true passion lies in the realm of artificial intelligence.  My research focuses on Deep Learning, particularly in Multi-Modal Deep Learning, Generative AI, and Efficient Tuning.  I am driven by the potential of these technologies to solve real-world problems and create impactful solutions.
