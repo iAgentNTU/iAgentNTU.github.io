@@ -17,7 +17,7 @@ show_project: false
 brief: 
 # bibsrc: /people/bibtex/chichia.bib
 # bibsrc: '#bibtex'
-bibsrc: ''
+bibsrc: '/people/bibtex/erick.bib'
 homepage: 
 facebook: 
 linkedin: 
