@@ -11,8 +11,8 @@ entry_year: 2024
 exit_year:
 link: true
 external_url:
-image: /people/images/You-Chen_Ou.jpg
-research_interests: recommender system, internet of things
+image: /people/images/You-Chen_Ou.JPG
+research_interests: Natural Language Processing
 show_project: false
 brief: 
 # bibsrc: /people/bibtex/chichia.bib
