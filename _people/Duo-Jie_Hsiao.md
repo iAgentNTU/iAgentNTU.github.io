@@ -18,7 +18,7 @@ brief:
 # bibsrc: /people/bibtex/chichia.bib
 bibsrc: '#bibtex'
 
-email: hsiaoduojie0807@gmail.com
+email: https://mailhide.io/e/qU7kRCbW
 homepage: 
 facebook: https://www.facebook.com/profile.php?id=100007620872901
 linkedin: https://www.linkedin.com/in/duo-jie-hsiao-4a84a9218/
